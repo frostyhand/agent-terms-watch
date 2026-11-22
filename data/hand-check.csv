@@ -1,0 +1,30 @@
+site,stance_auto,stance_checked,quote,added,checked_how,note
+amazon.com,conditional,conditional,"No Agent may access, use, or interact with Amazon Services unless, at all times, it identifies itself... ""Agent/[agent name]""",,live page read 22 Nov 2026,Agent Terms; robots.txt disallows ChatGPT-User Claude-User Perplexity-User
+target.com,allowlist,allowlist,"The current Approved Agents are: Target's AI Shopping Assistant, OAI, Google and Microsoft.",2026,live page read 22 Nov 2026,All other Agentic Commerce Tools expressly prohibited
+ebay.com,ban,ban,"...buy-for-me agents, LLM-driven bots, or any end-to-end flow that attempts to place orders without human review...",2026,archive copy 16 Nov 2026 (live page captcha),User Agreement; robots.txt comment 'Robots & Agent Policy'
+walmart.com,none,conditional,"Actions taken by an Agent you have authorized, including purchases... will be treated as actions taken and authorized by you",2026,live page in browser 22 Nov 2026 (Last Updated October 26 2026),Section 16.L Authorized Agents; Agentic Access Terms; registration; assistive tech exempt; archive copy of 15 Oct 2026 predates the change
+instacart.com,mention,allowlist,You may not authorize... any Automated System to access or operate the Services through your account unless Instacart has expressly authorized that access.,2026,live page in browser 22 Nov 2026 (Last updated May 7 2026),Section 4.4; Agent/[agent name] user agent; assistive tech exempt; robots.txt permission does not cover agentic browsing
+bestbuy.com,conditional,conditional,all actions taken and any purchases made by any Digital Agent you use will be deemed in all respects as if you performed them yourself,,archive copy (live page shows country picker from Poland),DigitalAgent/[name]; single authenticated logged-in customer; no CAPTCHA solving
+etsy.com,conditional,conditional,Any actions taken by an Automated Agent on your behalf are considered your actions.,,archive copy (live 403 from Poland),may require verifiable identification incl. user agent
+weee.com,conditional,conditional,"Agents may not access the Services unless requests from the Agent are clearly identified, including the name of the Agent, the person or entity on whose behalf it acts",,live page read 22 Nov 2026,
+mheducation.com,ban,ban,"...AI agent, AI-enabled browser, browser extension, or other automated or AI-powered software... to access, read, navigate, interact with, or take actions within the Services",,live page read 22 Nov 2026,education publisher
+bealls.com,ban,own_feature,The AI Assistant is an automated technology and not a human representative,,live page read 22 Nov 2026,own chatbot only
+comc.com,ban,own_feature,Agentic Buyer is an optional feature offered by COMC.,,live page read 22 Nov 2026,own buying agent; purchases final and non-refundable
+westmarine.com,own_feature,own_feature,"West Marine's AI Shopping Assistant (""Skipper"") provides product recommendations",,live page read 22 Nov 2026,
+ae.com,mention,none,AI Shopping Channels,,live page read 22 Nov 2026,footer link text only
+goodsmileus.com,mention,none,Use a buying agent or purchasing agent to make purchases on the Site.,,live page read 22 Nov 2026,human proxy buyers not AI
+1800flowers.com,mention,none,Copyright Agent,,coder fix,DMCA
+mandalascrubs.com,mention,none,Copyright Agent,,coder fix,DMCA
+sdbullion.com,mention,ban,"(c) access the Website through any artificial intelligence agent, AI-powered crawler, or automated assistant",,live page read 22 Nov 2026,also bans grounding or retrieval for AI
+metabolae.com,conditional,conditional,"No Agent may access, use, or interact with Services unless, at all times, it identifies itself",,live page read 22 Nov 2026,wording follows Amazon's Agent Terms closely
+extremerestraints.com,mention,conditional,We welcome legitimate automated shopping assistants and AI agents that act for a real customer.,2026,live page read 22 Nov 2026,identify honestly; respect robots and rate limits; no order without the shopper's authorization; extra verification of agent orders
+samsclub.com,mention,ban,"use any robot, spider, scraper, other automated means (including, without limitation, digital assistants or artificial intelligence agents)",,archive copy,clause covers the Sam's Club Travel site
+renttherunway.com,ban,ai_scrape_ban,"Uses any robot, spider, site search/retrieval application, artificial intelligence tools, or other manual or automatic device to retrieve, index, scrape",,live page read 22 Nov 2026,AI named in anti-scraping clause
+bookoutlet.com,ban,ai_scrape_ban,"Use any automated means, including robots, spiders, crawlers, scrapers, scripts, data extraction tools, artificial intelligence systems",,live page read 22 Nov 2026,AI named in anti-scraping clause
+thorne.com,mention,own_feature,The AI Chatbot is an automated system powered by certain third-party generative artificial intelligence tools,,live page read 22 Nov 2026,own chatbot
+shop.simon.com,mention,own_feature,The Shopping Assistant is an AI-powered tool designed to help you find products,,live page read 22 Nov 2026,own assistant
+simon.com,mention,own_feature,The Shopping Assistant is an AI-powered tool designed to help you find products,,live page read 22 Nov 2026,same page as shop.simon.com
+shop-weekly.com,mention,none,For AI shopping agents,,live page read 22 Nov 2026,footer link to a separate agent page; terms silent
+zola.com,allowlist,none,Authorized Agent,,live page read 22 Nov 2026,California privacy law authorized agent
+salesforce.com,mention,not_shop,,,,software company; dropped from shop counts
+vercel.com,permitted,not_shop,,,,software company; dropped from shop counts
