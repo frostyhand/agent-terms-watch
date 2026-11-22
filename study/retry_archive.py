@@ -19,35 +19,57 @@ from pathlib import Path
 import httpx
 
 sys.path.insert(0, str(Path(__file__).parent))
-from fetch import UA, Wayback, decode, page_text, slug  # noqa: E402
+from fetch import UA, Wayback, decode, page_text, slug, terms_links  # noqa: E402
 
 
 CAPTCHA = ("captcha", "splashui", "challenge", "blocked")
 
 
-async def good_capture(client: httpx.AsyncClient, url: str, to: str | None = None) -> dict | None:
-    """Newest real capture (status 200, not a captcha, 1,500+ characters), walking back through the index."""
-    params = {"url": url, "output": "json", "filter": "statuscode:200", "fl": "timestamp,original", "limit": "-12"}
+CDX_LOCK = asyncio.Lock()
+CDX_GAP = 2.0  # seconds between index queries; the archive rate-limits hard
+_last = [0.0]
+
+
+async def archive_get(client: httpx.AsyncClient, url: str, **kw) -> httpx.Response | None:
+    """One request to the archive, spaced out, with long back-off on 429."""
+    for attempt in range(5):
+        async with CDX_LOCK:
+            wait = _last[0] + CDX_GAP - asyncio.get_event_loop().time()
+            if wait > 0:
+                await asyncio.sleep(wait)
+            try:
+                r = await client.get(url, timeout=90, **kw)
+            except Exception:
+                r = None
+            _last[0] = asyncio.get_event_loop().time()
+        if r is not None and r.status_code == 429:
+            print("archive 429, backing off", file=sys.stderr)
+            await asyncio.sleep(90 * (attempt + 1))
+            continue
+        return r
+    return None
+
+
+async def good_capture(client: httpx.AsyncClient, url: str, to: str | None = None, min_chars: int = 1500, raw: bool = False) -> dict | None:
+    """Newest real capture (status 200, not a captcha, enough text), walking back through the index."""
+    params = {"url": url, "output": "json", "filter": "statuscode:200", "fl": "timestamp,original", "collapse": "digest", "limit": "-10"}
     if to:
         params["to"] = to
-    for attempt in range(3):
-        try:
-            r = await client.get("https://web.archive.org/cdx/search/cdx", params=params, timeout=90)
-            rows = r.json()[1:] if r.status_code == 200 and r.text.strip() else []
-            break
-        except Exception:
-            rows = []
-            await asyncio.sleep(10 * (attempt + 1))
+        params["from"] = str(int(to[:4]) - 1) + to[4:]
+    else:
+        params["from"] = "20260501"
+    r = await archive_get(client, "https://web.archive.org/cdx/search/cdx", params=params)
+    try:
+        rows = r.json()[1:] if r is not None and r.status_code == 200 and r.text.strip() else []
+    except Exception:
+        rows = []
     for t, orig in reversed(rows):
-        try:
-            snap = await client.get(f"https://web.archive.org/web/{t}id_/{orig}", timeout=60)
-        except Exception:
-            continue
-        if snap.status_code != 200 or any(c in str(snap.url).lower() for c in CAPTCHA):
+        snap = await archive_get(client, f"https://web.archive.org/web/{t}id_/{orig}")
+        if snap is None or snap.status_code != 200 or any(c in str(snap.url).lower() for c in CAPTCHA):
             continue
         text = page_text(decode(snap.content))
-        if len(text) >= 1500 and "captcha" not in text[:3000].lower():
-            return {"ts": t, "text": text}
+        if len(text) >= min_chars and "captcha" not in text[:3000].lower():
+            return {"ts": t, "text": text, "html": decode(snap.content) if raw else None, "url": orig}
     return None
 
 
@@ -88,6 +110,38 @@ async def fix(rec: dict, wb: Wayback, out: Path, backfill: str | None) -> int:
     return fixed
 
 
+async def rediscover(rec: dict, wb: Wayback, out: Path, backfill: str | None) -> int:
+    """No terms page at all: find the terms link on a real archived copy of the home page."""
+    if any(p.get("file") for p in rec.get("pages", [])):
+        return 0
+    host = rec["origin"].split("//")[-1].rstrip("/")
+    home = await good_capture(wb.client, host + "/", min_chars=300, raw=True)
+    if not home:
+        return 0
+    cands = terms_links(home["html"], "https://" + host + "/", rec["origin"])
+    name = slug(rec["site"])
+    got = set()
+    for score, kind, url in cands[:6]:
+        if kind in got:
+            continue
+        page = await good_capture(wb.client, url)
+        if not page:
+            continue
+        fn = f"{name}__{kind}.txt"
+        (out / "terms" / fn).write_text(page["text"])
+        rec.setdefault("pages", []).append({"kind": kind, "url": url, "score": score, "source": "wayback", "wayback_ts": page["ts"],
+                                            "chars": len(page["text"]), "sha256": hashlib.sha256(page["text"].encode()).hexdigest(),
+                                            "file": fn, "retried": True, "rediscovered": True})
+        got.add(kind)
+        if backfill:
+            then = await good_capture(wb.client, url, to=backfill)
+            if then:
+                (out / "terms_then" / fn).write_text(then["text"])
+                rec.setdefault("backfill", {"target": backfill})[kind + "_ts"] = then["ts"]
+    rec["discovery"] = rec.get("discovery", "") + "+archive_home" if got else rec.get("discovery")
+    return len(got)
+
+
 async def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("run")
@@ -99,11 +153,11 @@ async def main():
     recs = [json.loads(l) for l in open(src)]
     async with httpx.AsyncClient(follow_redirects=True, timeout=60, headers={"user-agent": UA}) as c:
         wb = Wayback(c)
-        sem = asyncio.Semaphore(4)
+        sem = asyncio.Semaphore(2)
 
         async def go(r):
             async with sem:
-                return await fix(r, wb, out, a.backfill)
+                return await fix(r, wb, out, a.backfill) + await rediscover(r, wb, out, a.backfill)
 
         counts = await asyncio.gather(*(go(r) for r in recs))
     with open(src, "w") as f:

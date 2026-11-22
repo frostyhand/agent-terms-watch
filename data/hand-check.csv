@@ -28,3 +28,4 @@ shop-weekly.com,mention,none,For AI shopping agents,,live page read 22 Nov 2026,
 zola.com,allowlist,none,Authorized Agent,,live page read 22 Nov 2026,California privacy law authorized agent
 salesforce.com,mention,not_shop,,,,software company; dropped from shop counts
 vercel.com,permitted,not_shop,,,,software company; dropped from shop counts
+pgatoursuperstore.com,mention,own_feature,"Shop with AI is an AI assistant and can make mistakes",,live page read 22 Nov 2026 (US run),own assistant
