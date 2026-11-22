@@ -114,6 +114,15 @@ async def rediscover(rec: dict, wb: Wayback, out: Path, backfill: str | None) ->
     """No terms page at all: find the terms link on a real archived copy of the home page."""
     if any(p.get("file") for p in rec.get("pages", [])):
         return 0
+    from fetch import KNOWN
+    if rec["site"] in KNOWN:
+        page = await good_capture(wb.client, KNOWN[rec["site"]])
+        if page:
+            fn = f"{slug(rec['site'])}__use.txt"
+            (out / "terms" / fn).write_text(page["text"])
+            rec.setdefault("pages", []).append({"kind": "use", "url": KNOWN[rec["site"]], "score": -1, "source": "wayback", "wayback_ts": page["ts"],
+                                                "chars": len(page["text"]), "sha256": hashlib.sha256(page["text"].encode()).hexdigest(), "file": fn, "retried": True})
+            return 1
     host = rec["origin"].split("//")[-1].rstrip("/")
     home = await good_capture(wb.client, host + "/", min_chars=300, raw=True)
     if not home:

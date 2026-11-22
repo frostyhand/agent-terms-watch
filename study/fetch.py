@@ -70,6 +70,11 @@ FALLBACK_PATHS = [
 
 # ---------- helpers ----------
 
+KNOWN: dict[str, str] = {}
+_known_p = Path(__file__).resolve().parent.parent / "data" / "terms-urls.csv"
+if _known_p.exists():
+    KNOWN = {r["site"]: r["url"] for r in csv.DictReader(open(_known_p))}
+
 def now() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
 
@@ -234,6 +239,9 @@ async def one(row: dict, client: httpx.AsyncClient, wb: Wayback, outdir: Path, b
             if snap:
                 cands = terms_links(decode(snap["body"]), origin + "/", origin)
                 res["home"]["wayback_ts"] = snap["ts"]
+        known = KNOWN.get(row["site"])
+        if known:  # hand-found terms URL (data/terms-urls.csv) goes first
+            cands = [(-1, "use", known)] + [c for c in cands if c[2] != known]
         res["discovery"] = "links" if cands else "fallback"
         if not cands and not res["home"].get("walled") and res["home"].get("status") not in WALL_STATUSES:
             cands = [(5, "use", origin + p) for p in FALLBACK_PATHS]
