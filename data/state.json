@@ -126,7 +126,7 @@
   "robots_sha": "b96a710f0fbb4080ed7cf8a6752b38109e24256d81a3c71334b0a9dbfaa84e90",
   "stance": "none",
   "terms_sha": [
-   "af6fc3270a8811859029af9ba927160c07bad3ea7ebeb6e1ef8ad1db0062a097"
+   "4fd057ee6b34cfd692c7d816a08fbe25779eb64d340b9d4dde9562bf2a658a97"
   ],
   "terms_urls": [
    "https://www.4imprint.com/info/legalstatement"
@@ -186,7 +186,7 @@
   "robots_sha": "a483fead27605f0c336db9607438f21a5b35228be8324f69a1d9e73a8d3eb68c",
   "stance": "none",
   "terms_sha": [
-   "25f1c96197f917b6eee50859bdc0451263780a6ce4b7a6c7514b8974064df971"
+   "ee73ad161bdbc47a9dc0c2521e87b498f71ac25367a2b11f1a927e5563e9efc6"
   ],
   "terms_urls": [
    "https://www.aarons.com/terms-of-service.html"
@@ -224,16 +224,33 @@
  },
  "abercrombie.com": {
   "evidence": {},
-  "features": null,
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": false,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": false,
+   "auto_purchase_ban": false,
+   "automation_ban": false
+  },
   "robots": {
    "ChatGPT-User": true,
    "Claude-User": true,
    "Perplexity-User": true
   },
   "robots_sha": "32b70dfe76edaee0e136d4225884dd229cae50b21b382442a46c5cad44015b65",
-  "stance": null,
-  "terms_sha": [],
-  "terms_urls": []
+  "stance": "none",
+  "terms_sha": [
+   "b4e8ec10751b713bd8bf152312372c4dd3c046e0031b46a160e5de1d201c635b"
+  ],
+  "terms_urls": [
+   "https://www.abercrombie.com/shop/CustomerService?pageName=site-use&textKey=LEGAL_SITE_USE&storeId=10051&catalogId=10901&langId=-1"
+  ]
  },
  "abt.com": {
   "evidence": {},
@@ -259,7 +276,7 @@
   "robots_sha": "49d7de252745ff455fcd7362ff94c94469a4c4f7de2b1a29769ad339d579ffb0",
   "stance": "none",
   "terms_sha": [
-   "3190ee30469c0fcb87f909367887150aaf6fa8e212961afc7cbedc788ca4743d"
+   "84881673edcdf21535d578997f341c1614033820188379300ac0d594faf297cd"
   ],
   "terms_urls": [
    "https://www.abt.com/help/terms-of-usage"
@@ -460,7 +477,7 @@
   "robots_sha": "69e56959e51eded1d2429c4d4c337ce492ec83653ea9471992b4ec686c11a606",
   "stance": "mention",
   "terms_sha": [
-   "1a4cd4f8b95bb216d35a9cff661c6634a6c309995aaf215442272db8d8c7d0c2"
+   "2fcdd6036d6918ce9f8448621410351a065333d1a2871fee7fc705a848e908e4"
   ],
   "terms_urls": [
    "https://www.ae.com/us/en/content/help/terms-of-use"
@@ -593,7 +610,7 @@
   "robots_sha": "be60544ecdc0d09ca4a9894b25e2f3009b5d3d48c32c0dd7beeb20e6b073ac22",
   "stance": "none",
   "terms_sha": [
-   "108a7958052593de5bed4f7e61ddf644f04d548fc217ad6156bf18b2b1a3f23f"
+   "3884622a760bb8f998ec13b11f4779cfa7d03ef5de9edbe6ad0ddf4a99457494"
   ],
   "terms_urls": [
    "https://www.alexandani.com/pages/terms-and-conditions"
@@ -653,7 +670,7 @@
   "robots_sha": "8098b8946981c1218d742ae62410aebf65c82e42ec4d814edfd15c396c71bfd5",
   "stance": "none",
   "terms_sha": [
-   "0c186e9f270f7a50ef1b2bf79c9cc28de79af9f0fd7b681335284298a2b08dca"
+   "703c82f2716969d827f04438e4298631c9441c6d8cccd983974b6c89a6a9b5b2"
   ],
   "terms_urls": [
    "https://www.allbirds.com/policies/terms-of-service"
@@ -687,7 +704,7 @@
   "robots_sha": "7a3de05b09706e51a8b7dfc1f1297de0961ca263d7aaa2edc8d7396d3d2d2a8c",
   "stance": "none",
   "terms_sha": [
-   "d1e0760bd593e13c2f182c03ba938347ac39aea46f462e2ebf6c09b47172c6b5"
+   "caa44a235ada50009285d676b0060eefde3f5690178559944cd858ee1a16a8eb"
   ],
   "terms_urls": [
    "https://allevents.in/conditions"
@@ -747,7 +764,7 @@
   "robots_sha": "e845a03efb616970eb7ab7859e79c61f9000c4bfa1aa05763205381504dc371f",
   "stance": "none",
   "terms_sha": [
-   "88f51c9270ed87875076c01f2760aa2376946bd472f1ae41f9fed9ac1957047c"
+   "2e3eaa7150404755f533d35b566e392490a2425b70de5ec20c663d704d959a6e"
   ],
   "terms_urls": [
    "https://www.aloyoga.com/policies/terms-of-service"
@@ -777,7 +794,7 @@
   "robots_sha": "a93cdc2d99fdce591943608d88a6255f6dd782c7168c16e05f90376418467d64",
   "stance": "none",
   "terms_sha": [
-   "415157edef75c8173eff8ee5c0da4b1a2544d29c585573c8d282b41780906ca1"
+   "ba5475d672b322568006ab0e6bb617eb08a29990439ef33064bc8f80067d0655"
   ],
   "terms_urls": [
    "https://www.amainhobbies.com/terms-of-use/i27"
@@ -878,7 +895,7 @@
   "robots_sha": "9de23351c537895307647cfc58d737fe8dfaa4b573ab8fd6772cc53f5d2a7cff",
   "stance": "none",
   "terms_sha": [
-   "1b4d4d6d078d1043ed39ab660b64a4036d4993cb2f158383e38674fb3a160893"
+   "3667d44f18c65f3ea5f73dda992d58f1a119ca08d80c2827089e651c48b81a9f"
   ],
   "terms_urls": [
    "https://www.americangirl.com/policies/terms-of-service"
@@ -1079,16 +1096,31 @@
  },
  "apkpure.com": {
   "evidence": {},
-  "features": null,
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": false,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": false,
+   "auto_purchase_ban": false,
+   "automation_ban": true
+  },
   "robots": {
    "ChatGPT-User": true,
    "Claude-User": true,
    "Perplexity-User": true
   },
   "robots_sha": "5f65a3aa79b11a0bf896295745f7f939052b2141da10dd48fb8bdd98f7b3b579",
-  "stance": null,
+  "stance": "none",
   "terms_sha": [],
-  "terms_urls": []
+  "terms_urls": [
+   "https://apkpure.com/terms.html"
+  ]
  },
  "apple.com": {
   "evidence": {},
@@ -1202,7 +1234,7 @@
   "robots_sha": "8e49dd5d065ed4033af4465efdedb1507efcdb85cb9fcd96bd29109ccd32d460",
   "stance": "none",
   "terms_sha": [
-   "dd1f0558bd3cd437cdf987eef785ec27a14af61119c0910bfe0ce221ef5831d2"
+   "231336402c328d4826282246b692ecf3f38d2f2ad1ecb3791f385078536049e7"
   ],
   "terms_urls": [
    "https://www.ashleyfurniture.com/terms-and-conditions"
@@ -1232,7 +1264,7 @@
   "robots_sha": "9137b928192002473a20f11ca781eedf22a7ea5b42c3dfce5f1a5f4c30a72e2a",
   "stance": "none",
   "terms_sha": [
-   "4eac9e318889fe69e69c71eab9cba936adb238324af78b800c1f08608ebe7164"
+   "47cfa14e1ab00f68676a8f9810b7607c72bafb7a6d401c3c3786663a9ac32acf"
   ],
   "terms_urls": [
    "https://www.ashleystewart.com/pages/terms-of-use"
@@ -1262,7 +1294,7 @@
   "robots_sha": "45477929acb63bc525918dc929c5112d45370a6f26f3d79a319049b6b1220c6c",
   "stance": "none",
   "terms_sha": [
-   "aac96fd33f6f839899fb978636b10066d4e91a5a49c954872d4c985378cd4a58"
+   "7729843396fea0eb9d0d1fc30e08704fff9e0ea8257c15769cdf4a1e1b937072"
   ],
   "terms_urls": [
    "https://www.astrology.com/tos.html"
@@ -1309,16 +1341,33 @@
  },
  "auction.com": {
   "evidence": {},
-  "features": null,
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": false,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": false,
+   "auto_purchase_ban": true,
+   "automation_ban": true
+  },
   "robots": {
    "ChatGPT-User": true,
    "Claude-User": true,
    "Perplexity-User": true
   },
   "robots_sha": "e4e11d966d9fc87fa4b978ef963d4d974ed1636c1f599a30ecc6c92784d484d0",
-  "stance": null,
-  "terms_sha": [],
-  "terms_urls": []
+  "stance": "none",
+  "terms_sha": [
+   "e8e3c9e1adeaad1d5e921ddbff053669368eac42eb523769c0d166332a0f1324"
+  ],
+  "terms_urls": [
+   "https://www.auction.com/lp/legal/terms/"
+  ]
  },
  "auctions.yahoo.co.jp": {
   "evidence": {},
@@ -1395,16 +1444,31 @@
  },
  "autozone.com": {
   "evidence": {},
-  "features": null,
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": false,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": false,
+   "auto_purchase_ban": false,
+   "automation_ban": false
+  },
   "robots": {
    "ChatGPT-User": true,
    "Claude-User": true,
    "Perplexity-User": true
   },
   "robots_sha": "1fed1a609409304efce989d4da5f56bbd002a5eadace3a77b128654dc38c0746",
-  "stance": null,
+  "stance": "none",
   "terms_sha": [],
-  "terms_urls": []
+  "terms_urls": [
+   "https://www.autozone.com/lp/termsAndConditions"
+  ]
  },
  "avalore-jewelry.com": {
   "evidence": {},
@@ -1430,7 +1494,7 @@
   "robots_sha": "86c4b26366398cce8537e5acd28e63775f09884a6b9854c2b048913b929b3a56",
   "stance": "none",
   "terms_sha": [
-   "04d488fd926a45ed9179dfe51356e5d3a8931a65e295975ee86c4d68766bcbca"
+   "0ac01607004e78dc754bc03cd40231cc428418a4596104cf34095569b82aeb42"
   ],
   "terms_urls": [
    "https://avalore-jewelry.com/pages/terms"
@@ -1597,16 +1661,33 @@
  },
  "bananarepublic.gap.com": {
   "evidence": {},
-  "features": null,
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": false,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": false,
+   "auto_purchase_ban": false,
+   "automation_ban": false
+  },
   "robots": {
    "ChatGPT-User": true,
    "Claude-User": true,
    "Perplexity-User": true
   },
   "robots_sha": "0d53fbce9a9b967be10ae9f8d3471b4c2022973c911466e861f82cde02944a38",
-  "stance": null,
-  "terms_sha": [],
-  "terms_urls": []
+  "stance": "none",
+  "terms_sha": [
+   "c848da5d1d5688dd651bc2fd5d83119606ebff701588e0168294605c9a37a974"
+  ],
+  "terms_urls": [
+   "https://bananarepublic.gap.com/customerService/info.do?cid=1317"
+  ]
  },
  "bananarepublicfactory.gapfactory.com": {
   "evidence": {},
@@ -1755,7 +1836,7 @@
   "robots_sha": "b468f0e31283326ee8143662c106d86a18bf07f6fbdac360dc66c211b274d59e",
   "stance": "none",
   "terms_sha": [
-   "e05c526262706bf2a34f9ea1659805e69b2845d54235ffc285ef15d13e265c3b"
+   "b0bf9b9590c163deccabf0d933d16b363e2ee100d6adadb02b52c0d566f6e672"
   ],
   "terms_urls": [
    "https://www.baublebar.com/"
@@ -1785,7 +1866,7 @@
   "robots_sha": "7f9380f1d573576745fab8e0f95ba83e12713b06c45c6f24cd054fd9777e0f41",
   "stance": "none",
   "terms_sha": [
-   "a05504edf9e22d95012504f01d4047f3c590e705ac3c3192d0b8951309f5bf4b"
+   "baa575a25bec1ec6e6703a9bddef4356050e4dc37d651adc082847ca173a32c1"
   ],
   "terms_urls": [
    "https://www.bealls.com/mobile-terms/"
@@ -2058,16 +2139,31 @@
  },
  "bjs.com": {
   "evidence": {},
-  "features": null,
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": false,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": false,
+   "auto_purchase_ban": false,
+   "automation_ban": false
+  },
   "robots": {
    "ChatGPT-User": true,
    "Claude-User": true,
    "Perplexity-User": true
   },
   "robots_sha": "f85f2fdf80a523c2ef1ddbfcbdd6f00537aa8cf2296e1c1b7e2c5b90ac981156",
-  "stance": null,
+  "stance": "none",
   "terms_sha": [],
-  "terms_urls": []
+  "terms_urls": [
+   "https://www.bjs.com/info/membership-terms/"
+  ]
  },
  "blackgirlvitamins.co": {
   "evidence": {},
@@ -2191,16 +2287,31 @@
  },
  "bloomingdales.com": {
   "evidence": {},
-  "features": null,
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": false,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": false,
+   "auto_purchase_ban": false,
+   "automation_ban": true
+  },
   "robots": {
    "ChatGPT-User": true,
    "Claude-User": true,
    "Perplexity-User": true
   },
   "robots_sha": null,
-  "stance": null,
+  "stance": "none",
   "terms_sha": [],
-  "terms_urls": []
+  "terms_urls": [
+   "https://www.bloomingdales.com/customer-service/articles/bloomingdales-terms-of-use"
+  ]
  },
  "bluenile.com": {
   "evidence": {},
@@ -2226,7 +2337,7 @@
   "robots_sha": "5ca2bdc5a25356ced9f60d0919a62cddfa0470c20de1d13affde8402f37e8c01",
   "stance": "none",
   "terms_sha": [
-   "fd7956fbef0c5da9fa56fe29ef54b8ad1b526785291a56add6628a283b8fd636"
+   "050c0b3378b06a9af2e67b2a0eeaa25b1b6078b096c8e49ef4a4658b1001ca42"
   ],
   "terms_urls": [
    "https://www.bluenile.com/policies/terms-and-conditions"
@@ -2256,7 +2367,7 @@
   "robots_sha": "4f7f6be3d30d207846bad2cfaa9686c42f1e5e3af91ee1af3cf32045bfc75822",
   "stance": "none",
   "terms_sha": [
-   "dc6b046dec4213d5e9cf28d2b5f221108cfcd2ecd35544ce68673f512bce9eb4"
+   "d6068c5a01df5aedd386bcef8cdf9f1674e5f064de8ce2ba8788e7c700dc58ff"
   ],
   "terms_urls": [
    "https://us.boden.com/pages/accessibility-legal"
@@ -2264,16 +2375,31 @@
  },
  "bombas.com": {
   "evidence": {},
-  "features": null,
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": false,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": false,
+   "auto_purchase_ban": false,
+   "automation_ban": true
+  },
   "robots": {
    "ChatGPT-User": true,
    "Claude-User": true,
    "Perplexity-User": true
   },
   "robots_sha": null,
-  "stance": null,
+  "stance": "none",
   "terms_sha": [],
-  "terms_urls": []
+  "terms_urls": [
+   "https://www.bombas.com/pages/bombas-terms-and-conditions-of-use"
+  ]
  },
  "bookoutlet.com": {
   "evidence": {
@@ -2309,7 +2435,7 @@
   "robots_sha": "0f009900014e4f5ed1b2efd36cc374b27dd0cc882e856b05f76d707a4268fbda",
   "stance": "ban",
   "terms_sha": [
-   "615d5822410b1dc91bf263017920d5ebc0cf7b7363e394ba05b0493353019f1e"
+   "a06517973731360b30ab21e8d8f027aeac3169f348aef859ebe81029e089177a"
   ],
   "terms_urls": [
    "https://bookoutlet.com/policies/terms-of-service"
@@ -2393,7 +2519,7 @@
   "robots_sha": "19051591bf0273155b0de0673b21d123b0b59f2e69625623f57e20535278718c",
   "stance": "none",
   "terms_sha": [
-   "cd406dbf737f50e989b534eff74534178ef8952e9024a56415f3c86cfa4ada77"
+   "fc68a288f6786b69f92eb19ed1965d0443cc7c47ba6de0459e727ab24a86e9a7"
   ],
   "terms_urls": [
    "https://www.bootbarn.com/cs-conditions-of-use.html"
@@ -2453,7 +2579,7 @@
   "robots_sha": "ac9eb287e4d3326c85bf15442170b8336a4f324ed1ae471bff4df1212a9d095d",
   "stance": "none",
   "terms_sha": [
-   "622692df4ac32e4142bbf3d3b7b69d8c6f19858eb0fd6d7c75153b2c2100327f"
+   "8c72d63a4344c49f33a160c480eb9b34bc02125a6990b8203def7cb7553a5176"
   ],
   "terms_urls": [
    "https://www.bostonproper.com/pages/terms-of-use"
@@ -2483,8 +2609,8 @@
   "robots_sha": "ac6a90a1530ad911b9723040077f3deea15f34197c2a62fd09f6cbdc5ae8659e",
   "stance": "none",
   "terms_sha": [
-   "0f9386d3ef7bfc742746f98a8c675aab9ae6007b404121efb5bf084c2497de5f",
-   "4ba379a73873c84b2f770579c94acac0c1147de8b14fc2c7bc7d8c5739dc55d9"
+   "9715d6ec27a52c794af8d499147af044d7757a5b48e56f6e0e59ba7bcf056a13",
+   "f1759551e5e28c6b5ddd40e056b2ed6e254e71ec790a05c1c0ad8afb489b4fce"
   ],
   "terms_urls": [
    "https://www.bostonscally.com/pages/terms-of-sale",
@@ -2515,7 +2641,7 @@
   "robots_sha": "0b611422e47e916387158211468f323e89a806d1499c7b071e0a457abfdd198d",
   "stance": "none",
   "terms_sha": [
-   "2fbdf7725c1e2831e0e7135c5f9f01152e6424600aae50ad718ab07035aa0c93"
+   "979ad96f87cd9855d2a79196de9f08dd03a62cb9cd06a4e66f495bb462f5ed53"
   ],
   "terms_urls": [
    "https://www.bowling.com/service/termsofservice"
@@ -2545,7 +2671,7 @@
   "robots_sha": "7f5486bc3b9bc2045b10ba9f0a8faca6b25153451ec9052e0818e5507b94e914",
   "stance": "none",
   "terms_sha": [
-   "025c5a8a2867874e88c5a7c4ac6de0de6807ed3981926d28a63a0327f2da4252"
+   "0c5fe189abad678e613c6a0803fa7594a2101adcdd4a6509144a376fa76f5b6e"
   ],
   "terms_urls": [
    "https://www.boxlunch.com/customer-service/boxlunch-policies/terms-of-use/"
@@ -2695,7 +2821,7 @@
   "robots_sha": "58d424549524e7d85afe25664c7349b8454c7c31bda5a7d602913e4f3e076d56",
   "stance": "none",
   "terms_sha": [
-   "b02da5692245a46216759373f4cb6a695704fd1f12a1c26d77554259c4d140ca"
+   "0ce0a3e8cf19451c0de6438097bcf097d1712a10a3ce28f7a1035c0d9934ca40"
   ],
   "terms_urls": [
    "https://www.brooklinen.com/pages/terms-of-service"
@@ -2725,7 +2851,7 @@
   "robots_sha": "e0ba804520735ea62aecbcfb4a358b1d5f184857c3048a170df03638671c60fb",
   "stance": "none",
   "terms_sha": [
-   "3e1fa0564e751c92289065fb27700c9fd644c330bf964fb6954b48b5f390964e"
+   "bc88c67b9730f078e5755af5ec1fc6de4d6cb0ec36ab63e3dc71b0d17896787a"
   ],
   "terms_urls": [
    "https://www.brooksbrothers.com/terms-conditions.html"
@@ -2755,7 +2881,7 @@
   "robots_sha": "09ea061093b8553253d26f4c19ac63528af6facede9e96341f308d4685ba9cb8",
   "stance": "none",
   "terms_sha": [
-   "ef9ed45a764de3da97c7eabb25386a8b7ac39913e120afc78e8dd667c3b40c6e"
+   "6da8bc10f7060868844ac408124446e6735888918da7e34ee945073e22d04f2e"
   ],
   "terms_urls": [
    "https://bruntworkwear.com/pages/terms"
@@ -2884,7 +3010,7 @@
   "robots_sha": "062af14ed5fe8220723df4fe54b677676ac9553a66ee963b70a2c9e63dfd614d",
   "stance": "none",
   "terms_sha": [
-   "c0f315edfa08369841a55079e9a2cce6e098032c87c4b2e6cc66b54c1d1a1335"
+   "52132c5c296228b128ad3083d8ba7f5e0d07c1248e1753db7048436758e336be"
   ],
   "terms_urls": [
    "https://burtsbeesbaby.com/pages/terms-of-use"
@@ -3103,7 +3229,7 @@
   "robots_sha": "b0db0d86e95550ec6b902ec016b078dcc0b6beddd86595d1d0ef627475871941",
   "stance": "none",
   "terms_sha": [
-   "4cf85c9dfd4e7df581779b8b3849fd2b6898898e99940adcb3fe023de76955ea"
+   "ae8cbacf478b1da34768b2c70e99417c46eafb43a6e7fbc48d9cc6bc3e571a8c"
   ],
   "terms_urls": [
    "https://www.casetify.com/faq/terms"
@@ -3163,7 +3289,7 @@
   "robots_sha": "5b7eeddf9652ee617235b5aedc55fa6bceb8a18b605675f4eb93433c71ef90e4",
   "stance": "none",
   "terms_sha": [
-   "2ca11e619425e2f15be17affcf71ce6e5be54d1ed95096b91c7516b2fb33bb9a"
+   "1866fc435636d2ddc6b459cfc8636070d61311d90cf1940f4ab9fd9aee38a16c"
   ],
   "terms_urls": [
    "https://www.catherines.com/c/terms-of-use-ca.html"
@@ -3427,7 +3553,7 @@
   "robots_sha": "aa4c37080aaf2fb07a2c617c38159b947d09919fc217100fc3c4495235b79c87",
   "stance": "none",
   "terms_sha": [
-   "5bdb6de3d8013f4a52bb03755fecb1f7e39af07bd96004e1a1edaab54774e182"
+   "e52329bc4ba1b1850fdbe1991078e77298d592cda4cf8ba84f5967ad5959f218"
   ],
   "terms_urls": [
    "https://www.chicagotribune.com/2007/01/16/terms-and-conditions/"
@@ -3470,7 +3596,7 @@
   "robots_sha": "fd90e2faf8bc0d426a481d525a031bf7271cbceebf972712f3a90d4c0b8551ca",
   "stance": "none",
   "terms_sha": [
-   "500994d5e16d107e1bade007cb1eddd9b9e61729cfb31f4d3ea21c28c3e6ec62"
+   "25c169df94b7b05b4ff7406e46348bc1dc369654859dda43114cf675cc52cacc"
   ],
   "terms_urls": [
    "https://www.christianbook.com/page/info/terms-and-conditions"
@@ -3554,7 +3680,7 @@
    "agent_thirdparty": false,
    "ai_training_ban": false,
    "auto_purchase_ban": false,
-   "automation_ban": true
+   "automation_ban": false
   },
   "robots": {
    "ChatGPT-User": true,
@@ -3565,7 +3691,7 @@
   "stance": "none",
   "terms_sha": [],
   "terms_urls": [
-   "https://support.ksl.com/hc/en-us/articles/1260800721790-Terms-of-Use"
+   "https://support.ksl.com/hc/en-us/articles/1260800721670-KSL-Classifieds-Terms-of-Use"
   ]
  },
  "classlink.com": {
@@ -3635,7 +3761,7 @@
   "robots_sha": "1f4a860a834566f3711795d6c4be0513e1ba551328c6d6ff887dcb44ebb18b55",
   "stance": "none",
   "terms_sha": [
-   "d23e62910e370815031b8a03cc2661f3e079c710c7d79e4d0311a22d1c34b613"
+   "adc978c67ca5f1e6424aff84475dee4da8e744ea298e4dbf59c969634c28f066"
   ],
   "terms_urls": [
    "https://www.colehaan.com/pages/terms-of-use"
@@ -3643,16 +3769,32 @@
  },
  "columbia.com": {
   "evidence": {},
-  "features": null,
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": false,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": false,
+   "auto_purchase_ban": false,
+   "automation_ban": true
+  },
   "robots": {
    "ChatGPT-User": true,
    "Claude-User": true,
    "Perplexity-User": true
   },
   "robots_sha": null,
-  "stance": null,
+  "stance": "none",
   "terms_sha": [],
-  "terms_urls": []
+  "terms_urls": [
+   "https://www.columbia.com/t/legal/terms-of-sale/",
+   "https://www.columbia.com/t/legal/terms-of-use/"
+  ]
  },
  "comc.com": {
   "evidence": {
@@ -3691,7 +3833,7 @@
   "robots_sha": "36e486156a1e55974156554789bb25a47f8bb93431eeabb5769e73c4c2b422e1",
   "stance": "ban",
   "terms_sha": [
-   "7d6029d5e7188a0a94c3a5385fb7cef1a52b51394e15061aacaeb687df6de1fe"
+   "8166837b4fdb9b3924ce67257f317943ded335dff825282bc4e85754eb6b6ace"
   ],
   "terms_urls": [
    "https://www.comc.com/UserAgreement"
@@ -3751,7 +3893,7 @@
   "robots_sha": "255fb37c58791d12a6a645d3481f328f4169e5a318f4143f09629b46295467f9",
   "stance": "none",
   "terms_sha": [
-   "acf210b87f062c65c2a595f2e7ccddb6890ae83f207b9434cf86fc228dbc6c20"
+   "90dc92d588662a0cc4dd534e385dbab7dad408ede3c3e534d12708f18801deb4"
   ],
   "terms_urls": [
    "https://www.construct.net/en/terms-and-conditions"
@@ -3843,7 +3985,7 @@
   "robots_sha": "ed8ed1579bf2033e61209616014293912eb9770ec86c4a49d54c79c8b6efcb27",
   "stance": "none",
   "terms_sha": [
-   "30b385a7cf3cb5d63cdf1cdb9837d7436ef7ef03e576d2cccb71160c7cbfa091"
+   "2bb8690c990caad0f5c9f4c6f065b28812f2af4c6cd8cfd604763ed078e113a9"
   ],
   "terms_urls": [
    "https://www.costco.com/f/-/terms-and-conditions-of-use"
@@ -3864,16 +4006,31 @@
  },
  "crateandbarrel.com": {
   "evidence": {},
-  "features": null,
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": false,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": false,
+   "auto_purchase_ban": false,
+   "automation_ban": false
+  },
   "robots": {
    "ChatGPT-User": true,
    "Claude-User": true,
    "Perplexity-User": true
   },
   "robots_sha": null,
-  "stance": null,
+  "stance": "none",
   "terms_sha": [],
-  "terms_urls": []
+  "terms_urls": [
+   "https://www.crateandbarrel.com/customer-service/terms-of-use"
+  ]
  },
  "creations.mattel.com": {
   "evidence": {},
@@ -4090,7 +4247,7 @@
   "robots_sha": "044e824bb26dd6baabde8374aee1b6216925d0449ad58ff062b6c11be8ae923e",
   "stance": "none",
   "terms_sha": [
-   "7a6e24b455db3a8f69b5bdff2c9179b32da9fb997ed188585fe08953956e1c18"
+   "4aae7921742862952a09b64e596d19aff01695c6fe9189c6422a06c6726d598c"
   ],
   "terms_urls": [
    "https://www.curvlife.com/pages/site-terms"
@@ -4098,16 +4255,31 @@
  },
  "cvs.com": {
   "evidence": {},
-  "features": null,
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": false,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": false,
+   "auto_purchase_ban": false,
+   "automation_ban": false
+  },
   "robots": {
    "ChatGPT-User": true,
    "Claude-User": true,
    "Perplexity-User": true
   },
   "robots_sha": "59f38b15d0eb77d55dc5969a113d83d94a731a8705f97b3cab8fee8f90093071",
-  "stance": null,
+  "stance": "none",
   "terms_sha": [],
-  "terms_urls": []
+  "terms_urls": [
+   "https://www.cvs.com/retail/help/terms_of_use"
+  ]
  },
  "cyclegear.com": {
   "evidence": {},
@@ -4133,7 +4305,7 @@
   "robots_sha": "b004bca18065da15dd9e06f8afa10885fec903c70306d2f9cc1457507b9b6a82",
   "stance": "none",
   "terms_sha": [
-   "cfbf2c0d7d926c5af0409ba9bf62dd4a5f664d1fae424dfe2284367db9f944e7"
+   "cf9ffc0f517447cd397d3b8267bcd7fe53a71b4399957a7651d5b32c68e186ac"
   ],
   "terms_urls": [
    "https://www.cyclegear.com/terms-of-use"
@@ -4193,7 +4365,7 @@
   "robots_sha": "9e098d07436cc4dea3b3c796cb84c5e1160c8930e9c46aad6c765e3adde766bd",
   "stance": "none",
   "terms_sha": [
-   "a09cd43cebc00a4c7442b1a34d700198e4c68a147867d2ebd6921cffb728d28f"
+   "ffcbeab990f0833acb5ae38a9bc0d2ed012adf9c9d6b5230a1f8547e65599bb5"
   ],
   "terms_urls": [
    "https://www.davidyurman.com/assistance/terms-and-conditions.html"
@@ -4223,7 +4395,7 @@
   "robots_sha": "535ce745ef39bfb8869f8caddc5803c6487e5459961810f4e3edc0d87cb5d5bb",
   "stance": "none",
   "terms_sha": [
-   "ea1c004fb8aff83360238f85076fcc75db355f9ba022480666a6e11705c18712"
+   "42c8b428e22d9a490708ebdddddc0b235fecc51d21a5437f3536a92766d14311"
   ],
   "terms_urls": [
    "https://deepai.org/terms-of-service/terms-of-service"
@@ -4283,8 +4455,8 @@
   "robots_sha": "66cd4b30830097a49824ea5ca499411193336ccae283787b385bc3b43f620bf4",
   "stance": "none",
   "terms_sha": [
-   "03e30b14d0b9584494f5da8b805058e553772425546bfe4172b46407594fcd26",
-   "88beb1b14953ad1f13cdde09130d498fde7dbe58cb36662c63d812989b2fc831"
+   "12002533d10ad1f64714a11b1e632060b5a60fb2a852751a0e4da41d8dcf2aea",
+   "ecd8d833fb5c10b93e29e24ca0273bc797f437422c9ba036752cd27631a739ef"
   ],
   "terms_urls": [
    "https://www.dell.com/en-us/legal/lp/terms-of-sale",
@@ -4345,7 +4517,7 @@
   "robots_sha": "1e95dfde0e639b470658ba800f7569723fd43698e83f8bb87dcde919256ebb40",
   "stance": "none",
   "terms_sha": [
-   "9cedc269273d0372751b3740a007a82431433e83a5dda77be2fdbb90ccafb9e5"
+   "ec44d3ecf7fb908fd624a0de35e1960c350d01ec479e3a4180d36b2833fc4f00"
   ],
   "terms_urls": [
    "https://www.deseretbook.com/terms-of-use.html"
@@ -4388,7 +4560,7 @@
   "robots_sha": "e3bbbe47e052298f33da042d14bc83af21a1ff35a4cc02acc3b51946d1f2e55d",
   "stance": "none",
   "terms_sha": [
-   "dbe77503fa08d1f2532e92157e79a0459c175451eb0e67610f1a5e137f87e097"
+   "4da29338630cfc09c3c2990a4d300637cadd3cc5b997c755392a7c0d093e75e4"
   ],
   "terms_urls": [
    "https://www.diamondartclub.com/pages/terms-of-service"
@@ -4418,7 +4590,7 @@
   "robots_sha": "da7fdb422e56b4fd9b586364f54f99ea414df02db12512bbcaf6ce1723c1cb10",
   "stance": "none",
   "terms_sha": [
-   "e50473a60dae40e58b14978c4c29b66844e4af8a21020ec9390c477cb39a05ec"
+   "1447501454031a514b78363833ae0485dfb4c7a69cade8e866c17c7d885ea690"
   ],
   "terms_urls": [
    "https://www.dickies.com/en-us/pages/terms-and-conditions"
@@ -4502,7 +4674,7 @@
   "robots_sha": "cd8a317b5472d127142fee266d6f32baa55b9189b424456cfb9566f651f8e027",
   "stance": "none",
   "terms_sha": [
-   "76684f91d4136f5d15c2dce2766dd93a72de8e57290090e74f1bbc80033585c1"
+   "83edb5446e628d2363d473e14028ef21353e1a1da279cd0a29002def9295098c"
   ],
   "terms_urls": [
    "https://www.disturbia.us/policies/terms-of-service"
@@ -4605,7 +4777,7 @@
   "robots_sha": "3c4f9ce11d10c30ce66472d799b4d0ffa90b418b362954ccad9c4923e947e955",
   "stance": "none",
   "terms_sha": [
-   "29d571a22eda75ef614b204c274c6277019ab6d5a524451bdea5e13a8eac7b2c"
+   "0d2757740c7892e6d64fafaa49763ebbd9cf00c5f76132d7d13631acc5ddbab1"
   ],
   "terms_urls": [
    "https://www.dndgel.com/policies/terms-of-service"
@@ -4635,8 +4807,8 @@
   "robots_sha": "3cee3eb9301c7b538636c0923287e2935c5e4755116a18ba1631e09f831a5d0c",
   "stance": "none",
   "terms_sha": [
-   "6f7b7aa6f38243822a52e9a93324ea3b96f61ae088970f2d8ae8bfb8969be4c8",
-   "a116d19cbb484dc6431b4a824bdac49285677922bbe03fb6d08a2aa990908c96"
+   "0aceb917a8a87c703ffdedcc586edc8983c6aa0a7b6d3571036e1064e98552dc",
+   "2e8c9c6e28060b22b7b59dbcdaaa4960987643220d41052652f2500345e83c93"
   ],
   "terms_urls": [
    "https://www.dolcevita.com/pages/terms-of-sale",
@@ -4765,7 +4937,7 @@
   "robots_sha": "4ee7c4246af50feb78cfdc24e0f6efe0077d4fdf988d2f680661873132cccb13",
   "stance": "none",
   "terms_sha": [
-   "e0a548af4d2b8dcb3071c15ac72a3cdf41ec095558f357d389fd6c7ba21fd1c6"
+   "2d798a5cb51b070366f0f2245df64e7da04cb852a92d2e222e918fa6af9e7c77"
   ],
   "terms_urls": [
    "https://www.dooney.com/pages/terms-of-service"
@@ -4795,7 +4967,7 @@
   "robots_sha": "4b462cd6a9a871daca4cbe577982f56df2e40bb15fbca38a28b0aba6a77a245e",
   "stance": "none",
   "terms_sha": [
-   "ec82c181595a812a670c1e88330dcdbabde18b2617f295eebcc3a6d6cb40cf7d"
+   "892e639b268db0c77c9ac36fa650ce6fb2b66fe640db4c0f39713715c145f213"
   ],
   "terms_urls": [
    "https://www.doterra.com/terms-and-conditions-of-website-use"
@@ -4914,7 +5086,7 @@
    "8495a59e109e3601e6d521b4f779d62aced30bc00fc6fe45606196494277c521"
   ],
   "terms_urls": [
-   "https://www.ebay.com/splashui/captcha?ap=1&appName=orch&ru=https%3A%2F%2Fwww.ebay.com%2Fhelp%2Fpolicies%2Fmember-behaviour-policies%2Fuser-agreement%3Fid%3D4259&iid=19aa3477-ead2-4ca5-8da4-dd339010fe31&iim=HMjAuMje&iia=wjIxLjYxPB&iiz=wwiLjIzMg**FNQ"
+   "https://www.ebay.com/splashui/captcha?ap=1&appName=orch&ru=https%3A%2F%2Fwww.ebay.com%2Fhelp%2Fpolicies%2Fmember-behaviour-policies%2Fuser-agreement%3Fid%3D4259&iid=38159af0-59c7-4dae-a7a3-9e311426d3e6&iim=yNTIuMTQ&iia=cMY1LjU5nP&iiz=CXsLjIxOA**WOi"
   ]
  },
  "ebonyline.com": {
@@ -4941,7 +5113,7 @@
   "robots_sha": "3e01b7891de31786ab995c2c2e95d4d0be80f86b22fcf3d87cf75bbe9e6bf11e",
   "stance": "none",
   "terms_sha": [
-   "e8c3c2add530f8e5e1d5257d63ce7b09a8ef23975620a77eed329c39cacd9619"
+   "77b5a8cc32a732d79b608ef061aa0578ab3911c71739cf5fa472b8f3f8594d6e"
   ],
   "terms_urls": [
    "https://ebonyline.com/policies/terms-of-service"
@@ -5001,7 +5173,7 @@
   "robots_sha": "d621c33f58818ef9156cf7a45055d4834556590185d46df0d999816947e961c0",
   "stance": "none",
   "terms_sha": [
-   "6e69de1a0a1cc2c33cd0a0616660fecbcc3ed26aebc0dc2dded5f1376826d117"
+   "8befb3ccd7f6e326cc47288a418993172939f005294dc8c1892a08110bcaab77"
   ],
   "terms_urls": [
    "https://www.eddiebauer.com/policies/terms-of-service"
@@ -5091,7 +5263,7 @@
   "robots_sha": "2b7ccd692b0ad1730e5bd6b6d4a3e8b6d74b138f805db731ef5d8bff32885908",
   "stance": "none",
   "terms_sha": [
-   "4d54b5e993299fdfe693d379942fab044226bead67cf5538016d0a1f51f041eb"
+   "4036c6a894a8d43f2637819fc8dc166eb8cc4e3127fd694a38d1d80fbaa2b40d"
   ],
   "terms_urls": [
    "https://edikted.com/policies/terms-of-service"
@@ -5151,7 +5323,7 @@
   "robots_sha": "5b7eeddf9652ee617235b5aedc55fa6bceb8a18b605675f4eb93433c71ef90e4",
   "stance": "none",
   "terms_sha": [
-   "f053d79cf75a799dcfa420e60a73e4ffb0bb74b88c9f8aa2b91eb997b81b687f"
+   "c023671f0593b14405127ffc24f18ee3bb451fbeca7d834dc5b0ecb90e6ca6e8"
   ],
   "terms_urls": [
    "https://www.eloquii.com/c/terms-of-use-ca.html"
@@ -5194,7 +5366,7 @@
   "robots_sha": "8791163deeb8f0a5a89493a1d5e96ea9732075ad0da621e9698a1ed0e28e8a7f",
   "stance": "none",
   "terms_sha": [
-   "3f8eb244d3543cd0651d48f004ad5d8a5ae8ac4c35ea2beefe9119b906701664"
+   "2603a87f3239110121b141cce46d810c59238c1cfb6342b23caf4c09415bb292"
   ],
   "terms_urls": [
    "https://www.eneba.com/terms-and-conditions"
@@ -5224,7 +5396,7 @@
   "robots_sha": "87255153233c92b13d0c0df16f4ef1ce265cb565470ab147a00f0edc9f97b23d",
   "stance": "none",
   "terms_sha": [
-   "a18df6c62641c8d4b4e44ab9eaf35e40cbe67034ef6eccab460e7606e70666b6"
+   "747231386ef8f80ffd1b7f7483a9159a4232f8ecf30f594a044ff6efb364cffe"
   ],
   "terms_urls": [
    "https://www.horseracingnation.com/content/terms"
@@ -5295,11 +5467,11 @@
    "Claude-User": true,
    "Perplexity-User": true
   },
-  "robots_sha": "e1b12b9bd574cbcc3b554d085e2e6769d8d4b0e80e20ba062c14678419ec9a17",
+  "robots_sha": "b7bdba11b8a653d41384dc686d8562b0fd3e7f448c72eec9515b70976ef467bd",
   "stance": "conditional",
   "terms_sha": [],
   "terms_urls": [
-   "https://www.etsy.com/legal/terms-of-use/"
+   "https://www.etsy.com/legal/terms-of-use?ref=ftr"
   ]
  },
  "eufy.com": {
@@ -5326,7 +5498,7 @@
   "robots_sha": "15f21029b62ddb2a133db8d986f5c1ae638f5e0cba915796eeb6e87a4eb5540c",
   "stance": "none",
   "terms_sha": [
-   "091e9986607aa6e97728d13854b6e548db08ec7f0d98d0dcb2c36a3ceca430fc"
+   "8afb0aa8a54c691eebc9aa471785ae27b11965c1312eb3b92a64da79db030f35"
   ],
   "terms_urls": [
    "https://www.eufy.com/policies/terms-of-service"
@@ -5356,7 +5528,7 @@
   "robots_sha": "a8b6e132fd3d2b6506b17bd5e0ac33c78914155611454eeaae56f931c653ffe9",
   "stance": "none",
   "terms_sha": [
-   "f5cc771cab84f0d5585da5eb9e642b35fbad0e6d46610b4fda712afb1466bbfe"
+   "81d4ca3ae15f76aa86b75256a18b7366e385a05beeb0ec4557d21cece3f6f2b5"
   ],
   "terms_urls": [
    "https://evereve.com/policies/terms-of-service"
@@ -5416,7 +5588,7 @@
   "robots_sha": "af54460b86982f24d2ac221888d65ef0fd5c12e325753b4c34c95263f3cd5f11",
   "stance": "none",
   "terms_sha": [
-   "84aa41850b17155c109cc743f3f5b74804aec943b318aabc258555ccee37f998"
+   "6bf344fe1df27d029feec030aaba03c807c73cc798debc8978f4089174e3fd28"
   ],
   "terms_urls": [
    "https://www.everlane.com/pages/terms"
@@ -5446,7 +5618,7 @@
   "robots_sha": "2e89ffa9a7a0e4f3c25fb7ac1f02c1d7f582e1fa09f54f70c911f981609c94f7",
   "stance": "none",
   "terms_sha": [
-   "22ec0fffd59346b661669922d580b41f5b572fb712d9102ef3061b96af1f6cef"
+   "f08ab5f0f0afaf8ec7ba7a7d4393fb086b200839a436e7b513b55c4429ff3315"
   ],
   "terms_urls": [
    "https://everythingfor420.com/pages/terms-conditions"
@@ -5476,7 +5648,7 @@
   "robots_sha": "c018344f23cb44279095902a712777caea46704d5af715617ac054988b67e630",
   "stance": "none",
   "terms_sha": [
-   "c3df1ca55a1b10b66afec748bfa25f93d08090353410945bbedd75505e2d4627"
+   "221f68dcf185b1071781b150a1aac4234686f1355266ce18f1e5247ba4e817f6"
   ],
   "terms_urls": [
    "https://www.evo.com/pages/terms-and-conditions-of-service"
@@ -5506,7 +5678,7 @@
   "robots_sha": "3fa836cf28bf6ae7801dfffcab63f82124a04eec7f77f4b2abdf68d8c2b9274d",
   "stance": "none",
   "terms_sha": [
-   "b7dea036bb0d9c177110c9e7308a54a76330a831c151e4bc9d7bbbcdd8ae342f"
+   "a35c528dfb545c079a21f33eee50cb0c427d2b18b8a6606aa4a811e3cdeb9824"
   ],
   "terms_urls": [
    "https://evryjewels.com/policies/terms-of-service"
@@ -5642,7 +5814,7 @@
   "robots_sha": "166f98ff2caaaabee996152959fbbef797a9e966267d130234dda057bc36ff3f",
   "stance": "none",
   "terms_sha": [
-   "03beb6483d982c3d17e5b92942cdf56c6429c980779c3fd164431561208c52e9"
+   "8d4b7c989498ec1739669a0be9ac1179c0bd6bdf163e8934a22765855b51a879"
   ],
   "terms_urls": [
    "https://facelove-cosmetics.com/pages/terms-of-service"
@@ -5672,7 +5844,7 @@
   "robots_sha": "cc41dceda50e44b9e0be80985a069cf4af9a3f05ef83e8b47cd2bc2784261bbc",
   "stance": "none",
   "terms_sha": [
-   "4d75f3eccd8fc7286582f5a4194846f8a89361373d11d4029501e8ad5d22d8f1"
+   "f235502b6da5e621b299c1b4fac189232cff5c689e5f152c0777d7d257f6f3fc"
   ],
   "terms_urls": [
    "https://factory.jcrew.com/help/terms-of-use"
@@ -5715,7 +5887,7 @@
   "robots_sha": "08feb7e2a0c3d2d684e2dd5e6e7faed2fa78e0c065746a78aad5354f6c6202db",
   "stance": "none",
   "terms_sha": [
-   "cc0bd2f1fd6ae5d99f72c6255c8f9efb5cb85c6b3275a0ac13b9b038d2807056"
+   "24572da0ea077f4ab79109381607e7cb6c42046d6ff9438759c8e63cafc164b4"
   ],
   "terms_urls": [
    "https://www.fandango.com/policies/terms-and-policies"
@@ -5833,7 +6005,7 @@
   "robots_sha": "86c065041499a28982329e4b47f9fb0310275aef63c301316e462cbb94e59eb2",
   "stance": "none",
   "terms_sha": [
-   "0f4aa31d274a194ec663ff21f8688a2a3fb44e9c52697422d55e9b0580fa1f19"
+   "ce282e2ed2fd465cf219b46337d24be5125ff5ab8ae2bdb6dd243d749fd768a1"
   ],
   "terms_urls": [
    "https://fineartamerica.com/termsofuse.html"
@@ -6000,7 +6172,7 @@
   "robots_sha": "c884417c105cd2e035732f9a7fc99a424c0c67f737a810915794027c766fe9fe",
   "stance": "none",
   "terms_sha": [
-   "4d6c2f6a32e6b0eada5bcf02c6226726f59dafa219dba40a69a2b8d20c631d7f"
+   "93b2d16b945d4022adefe90d4761b3a86f6e69adcd784c047627207d3043dc33"
   ],
   "terms_urls": [
    "https://www.flooranddecor.com/policies/terms.html"
@@ -6144,7 +6316,7 @@
   "robots_sha": "f0e83acb505e1c2590f41cc8d5976a0543095bd7baf6bbe4f82e2a38c0b17c17",
   "stance": "none",
   "terms_sha": [
-   "82cdeafe9ecab76bc05ea6f69a6d9a30e9e1201fcfa10758a8d43d435a58808e"
+   "76c267aa9adfb71ee9bcfce0c0bc250f68460a23dd2fa32a1d8fc3d6ab082e92"
   ],
   "terms_urls": [
    "https://frostbuddy.com/policies/terms-of-service"
@@ -6174,7 +6346,7 @@
   "robots_sha": "85b5dfa33b2aacc6b36ed7a5512ac1c106cde30143395bd1d22a99c242bab2ba",
   "stance": "none",
   "terms_sha": [
-   "859a9ec36932f032a642ed52a684f3e24a2272c47c3a2cd76855de5a03db89a3"
+   "b08568cf504eeb33a77b50d864837e59e222bd56c760178e3d664aac72597452"
   ],
   "terms_urls": [
    "https://gamersupps.gg/pages/terms-of-service"
@@ -6397,7 +6569,7 @@
   "robots_sha": "be909d72ce133555512b99cb5718d5c0f1adb739494e83cbf7eb54072f2498ef",
   "stance": "none",
   "terms_sha": [
-   "c75e6fdcff518ea36a67ac4e53489232e49fd9d14cedb37185dec3843b8de5b3"
+   "cf2c9525700ac66d06e20a2a3b0c51d9108f99e9609762ba805490f4a2f9ba0f"
   ],
   "terms_urls": [
    "https://www.glamnetic.com/pages/terms-of-service"
@@ -6534,7 +6706,7 @@
   "robots_sha": "50c9b7c755d4990974aeae670071db6e978eac80c0fd153b34d25f38c3541566",
   "stance": "none",
   "terms_sha": [
-   "b80c4a7f90c5e5a80b7cde0d0659a3579c6def4dbe9ba87aa183beb6b1fe975a"
+   "a38491f2a2b540a8eaf10cd8a2a0da251951bbb9b8ecea896d0e3d09576329f9"
   ],
   "terms_urls": [
    "https://goda.co/pages/terms-of-service"
@@ -6594,7 +6766,7 @@
   "robots_sha": "1e8ba1bdf416c2fc3db7f932eb476fbe9f8d98d30de718408abb65fd1f422e8e",
   "stance": "none",
   "terms_sha": [
-   "759efb4ed4d6856f3e6963fc402c710a3c3405873b260634d0c1d6c40e6fbe63"
+   "debf950659e23188649e310514bb5bef7e83c36a391f833418c0ae8d04a14c84"
   ],
   "terms_urls": [
    "https://www.goldbelly.com/terms-of-service"
@@ -6658,7 +6830,7 @@
   "robots_sha": "f6f0b2c6c81a333b4531f92dbc36acdddfb9c2a61096a2aae768c322711a0aa7",
   "stance": "none",
   "terms_sha": [
-   "03ab32baf7df9679df6c4c6d6aa91a4d351c75dbf29b94d4f0b1bc4448afcb38"
+   "c26cc561c8629464b21aae8bdec092f1bf1471233858388288973adf7d8e0f1f"
   ],
   "terms_urls": [
    "https://www.goodsmileus.com/policies/terms-of-service"
@@ -6761,7 +6933,7 @@
   "robots_sha": "08edf146f5ff191f934dff28a29f23ae55321a23c1e006976c915730e794ad83",
   "stance": "none",
   "terms_sha": [
-   "862f658e1bc0163a89fe37bcb6ef91a7ae6b7c944bf60237a42f00792afb47ef"
+   "32e8ac56a53410c4624bedd1b7c0ebf5f20ed19d90e5f9df3374eec9831a7d9d"
   ],
   "terms_urls": [
    "https://www.gruntstyle.com/pages/terms-of-service"
@@ -6791,8 +6963,8 @@
   "robots_sha": "b9a55ecbf3e1debe6669dee9c300c8a4f77c46f1bf81d33a0b22bdeef20999ce",
   "stance": "none",
   "terms_sha": [
-   "158afa462fa10c8dc53d3b7dba42c8782a05db325cdd9bbf0eb35dbe931a1584",
-   "f454190ada89dd7619f46f105536c4492aad0c27f7e56157037a7573bab9d3c7"
+   "ab248fb28c9f4f146b47ad20f41388d75ccecd09cf9e1923acfff140a2bcef01",
+   "e32781def4df737403fb5f2a6741718a024cfb255a9208e60e3f4463f77b9955"
   ],
   "terms_urls": [
    "https://gruv.com/pages/terms-of-sale",
@@ -6801,16 +6973,31 @@
  },
  "guitarcenter.com": {
   "evidence": {},
-  "features": null,
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": false,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": false,
+   "auto_purchase_ban": false,
+   "automation_ban": false
+  },
   "robots": {
    "ChatGPT-User": true,
    "Claude-User": true,
    "Perplexity-User": true
   },
   "robots_sha": "6a8ffee7b1254c013bb992be675b849f8f1a8ec54fa843d19b5cd7d0a637c9ce",
-  "stance": null,
+  "stance": "none",
   "terms_sha": [],
-  "terms_urls": []
+  "terms_urls": [
+   "https://www.guitarcenter.com/pages/purchase-terms"
+  ]
  },
  "gumroad.com": {
   "evidence": {},
@@ -6833,7 +7020,7 @@
    "Claude-User": true,
    "Perplexity-User": true
   },
-  "robots_sha": "8fe22d82943d70b66836193c4cbe6bbbeda312698ce4804074fdba79983b89a2",
+  "robots_sha": "e987064c30a8cc44c141f817c646407f4fc769a7f985d17ec911e102e9ce3afd",
   "stance": "none",
   "terms_sha": [
    "c99d0aeba74b7087a075221d74230e30126466b6ff6027b921cf5cf677d33067"
@@ -6896,7 +7083,7 @@
   "robots_sha": "8b1027003bcdd5e1bb392d057f6cb818939c109df42b6270ca03a9384c29fe82",
   "stance": "none",
   "terms_sha": [
-   "60c180df89a931431fbd399bb9e0de3e52135b3827d8490c65a8b1e64e4374e9"
+   "9b420bc5bcfb8bf09d093c4fb830f47e9087d8a38a52da6f1afd226720dc30f5"
   ],
   "terms_urls": [
    "https://www.gymshark.com/pages/terms-and-conditions"
@@ -6956,7 +7143,7 @@
   "robots_sha": "da29ccd32d4dfad5332531208140cdda8d252967a189355f59a6315645534708",
   "stance": "none",
   "terms_sha": [
-   "d5952f5a8e91b626b25dd1a5d2d5d2ecfa9215793f8d094df3187533b3180875"
+   "ca13c619fea0b3a45caeca7d4d0ab1cb60183ec66e99ca835848683898f606f4"
   ],
   "terms_urls": [
    "https://www.hallmark.com/terms-of-use/"
@@ -6986,7 +7173,7 @@
   "robots_sha": "519058834561f28855bb9b8e672a227314f8e4059e74c7c0bc3970ca5a01013f",
   "stance": "none",
   "terms_sha": [
-   "d414a02ab870a8cefcc2a6beb8d4af4cdd79e584cdc76d0e40f271e34c84e986"
+   "afba71b8e8171a3211118be1b44dd63c11eaa236b611c80ad7b02fa507fbad89"
   ],
   "terms_urls": [
    "https://www.hannaandersson.com/terms-of-use.html"
@@ -7190,7 +7377,7 @@
   "robots_sha": "bf7eb96d2be57de32a6aada961d0ade9c0efab03357ce1ff64d0904f0dee6e6a",
   "stance": "none",
   "terms_sha": [
-   "4a14944d265315459702787c8a77760b9d7e7c370bc7b49d8fc3d18f5fe7e694"
+   "941b1296676cb5277a6c59a345150ae89293a7a673da3155b5f22a98ae2cd273"
   ],
   "terms_urls": [
    "https://www.hibbett.com/help/legal/terms-conditions.html"
@@ -7233,7 +7420,7 @@
   "robots_sha": "ec6f2b2b66ef22434bcdd56fc61ff95fe466058b2fab2212c69cd4f3665635e8",
   "stance": "none",
   "terms_sha": [
-   "df299dd65cae7f074ab54370b1d24637fb96c42e916dda9133c8363b8493b962"
+   "294c71c32bcc6e39e0c04c771918d523863e0ea252eaf182db67c10865f45dda"
   ],
   "terms_urls": [
    "https://hobbii.com/policies/terms-of-service"
@@ -7254,16 +7441,33 @@
  },
  "hollisterco.com": {
   "evidence": {},
-  "features": null,
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": false,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": false,
+   "auto_purchase_ban": false,
+   "automation_ban": false
+  },
   "robots": {
    "ChatGPT-User": true,
    "Claude-User": true,
    "Perplexity-User": true
   },
   "robots_sha": "38ac433478416df46f309cd0836c914d453cf3afa259ca1946b0efd6844f3eac",
-  "stance": null,
-  "terms_sha": [],
-  "terms_urls": []
+  "stance": "none",
+  "terms_sha": [
+   "0b6c51301768e8e8e36629c0cb19b10ea47a5b32dbd27a8ee91b2a638cd7899b"
+  ],
+  "terms_urls": [
+   "https://www.hollisterco.com/shop/CustomerService?pageName=site-use&textKey=LEGAL_SITE_USE&storeId=10251&catalogId=10201&langId=-1&pagefm=navigation-footer"
+  ]
  },
  "holotaco.com": {
   "evidence": {},
@@ -7354,17 +7558,36 @@
   ]
  },
  "homegoods.com": {
-  "evidence": {},
-  "features": null,
+  "evidence": {
+   "agent_legacy": [
+    "You and the TJX Businesses agree that , except as set forth below, we will resolve any controversies, claims, counterclaims, or other disputes between you and the TJX Businesses or you and a third-party agent of the TJX Businesses (a \u201cClaim\u201d) through final and binding arbitration instead of through court proceedings in accordance with the Consumer Arbitration Rules of the American Arbitration Association (\u201cAAA Rules\u201d)."
+   ]
+  },
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": true,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": false,
+   "auto_purchase_ban": false,
+   "automation_ban": false
+  },
   "robots": {
    "ChatGPT-User": true,
    "Claude-User": true,
    "Perplexity-User": true
   },
   "robots_sha": null,
-  "stance": null,
+  "stance": "none",
   "terms_sha": [],
-  "terms_urls": []
+  "terms_urls": [
+   "https://www.homegoods.com/terms-of-use"
+  ]
  },
  "hoopladigital.com": {
   "evidence": {},
@@ -7420,7 +7643,7 @@
   "robots_sha": "20fbbe6ece5877cbe65659a458cdf459c924716483312e6c382a2b36dfa1ebb6",
   "stance": "none",
   "terms_sha": [
-   "a18df6c62641c8d4b4e44ab9eaf35e40cbe67034ef6eccab460e7606e70666b6"
+   "747231386ef8f80ffd1b7f7483a9159a4232f8ecf30f594a044ff6efb364cffe"
   ],
   "terms_urls": [
    "https://www.horseracingnation.com/content/terms"
@@ -7450,7 +7673,7 @@
   "robots_sha": "3ea4ec30b3de0bf2bd61ab255691e840193e8b97d0b5ac26e744f24928417050",
   "stance": "none",
   "terms_sha": [
-   "4263100b35fc033afc379ea53daea082f75b7eec2f9077d5ec73e35c125cd8a1"
+   "d92439c88ce751fb7a76df43c5ddfae1cb1e2bb7fba722c15b93fcdc715d5841"
   ],
   "terms_urls": [
    "https://www.hottopic.com/customer-service/hot-topic-policies/hot-topic-terms-of-use/"
@@ -7544,7 +7767,7 @@
   "robots_sha": "6bfdc517770349f11aeb4a5c94153b592b26972a81088f1ae1a6e2befb1e9cfe",
   "stance": "none",
   "terms_sha": [
-   "5ca0b27007eb16ba49f4da65db1dd03b057bbaae2b65c31e7b452968249a307a"
+   "fe916354f7cc05588666f6f0fb35d536b6216720509e148130f0a8cd1637b87c"
   ],
   "terms_urls": [
    "https://humehealth.com/pages/terms-of-service"
@@ -7796,8 +8019,8 @@
   "robots_sha": "1a1d7e280faf43acb51de3af471c2588b1b6ae54dfe3ae001d1fbcdc10c3cd96",
   "stance": "none",
   "terms_sha": [
-   "72aad2de07be6c574e48b93f935cd5e993dbfbb91a6fa3731a2cb9a7f5df319f",
-   "89a8eb47f0b3c2dbe4de59a81d22df36c1fdbadc1427757b318a50ab41ec0a75"
+   "f76ffd9709f879d301ebc800bb736e2834a348982a4e373996f23ae6dbbb0b79",
+   "f76ffd9709f879d301ebc800bb736e2834a348982a4e373996f23ae6dbbb0b79"
   ],
   "terms_urls": [
    "https://invictastores.com/pages/terms-conditions",
@@ -7858,7 +8081,7 @@
   "robots_sha": "1098a62db69d67fd8ec23b7d491a908d4f0ab53f7eb248a41cba6cf4f362dcc3",
   "stance": "none",
   "terms_sha": [
-   "8d12151b7145a98ffd61eaabb5f63f14a776bedaafa670681d7af95fe658d390"
+   "0a1fd373952f173f06e772a42efcec9a443f0fae0afa5b74f18496d1b6030671"
   ],
   "terms_urls": [
    "https://www.jackery.com/policies/terms-of-service"
@@ -7888,7 +8111,7 @@
   "robots_sha": "ec2d0c8a2838c9c0fa54940ac9c562c0497e987acfe40bf0d067e6935d04ac82",
   "stance": "none",
   "terms_sha": [
-   "ad1eaded75c92a15e0cb0ce2e4326ab780cb50235456c32f75ede38051c5c64f"
+   "36169dee8aead91629411503e07fe3b2659e9c4c035bdd50cabd6ef8ed0fc1d5"
   ],
   "terms_urls": [
    "https://www.jamesavery.com/terms-and-conditions.html"
@@ -7918,7 +8141,7 @@
   "robots_sha": "141fb1acb10ad61bfa5450c513d2efd45b7251ad7c5590f9c963b6abcf909c91",
   "stance": "none",
   "terms_sha": [
-   "2c8784023db5eb1c7dd631577833bbfc0afd9101ab16cf7cd55031c46e46747c"
+   "61221908ff0dc78c577ecbf082081d7e88cab30f6a196a34da0c3c78fb0b66f2"
   ],
   "terms_urls": [
    "https://www.janieandjack.com/terms-of-use.html?lang=en_US"
@@ -7945,7 +8168,7 @@
    "Claude-User": true,
    "Perplexity-User": true
   },
-  "robots_sha": "87e4ba6f7ba7adf564e4d87a77399c03b19f6d98f5bbf54fe60b572cff85e976",
+  "robots_sha": "580830a668359fd63b297a161a89fbfa1926a909434a7d7b70c18e720be423b9",
   "stance": "none",
   "terms_sha": [
    "214c6d6b1c0e7c7a5ac0b41b43b6146317abcbcd233a22d885cefc8254171566"
@@ -8006,7 +8229,7 @@
   "robots_sha": "757f343da5066d08bed44379f10fc15aca16c3e6de7d96ecb1bc083b456b514a",
   "stance": "none",
   "terms_sha": [
-   "313b901c6c998fb599e6d68ab6aff79260dfb0360df542e494ccf7e109449704"
+   "5c5e868a02107f232d41a62e2848b34e4af316e85016c196f34e5b7f848e9743"
   ],
   "terms_urls": [
    "https://www.jcrew.com/help/terms-of-use"
@@ -8036,7 +8259,7 @@
   "robots_sha": "3eb5f4d6de71490a26d8f612c34c80f7fde6d18c6c6c81d62059c7e61ffa7850",
   "stance": "none",
   "terms_sha": [
-   "97fc463fffbeb3170d7d01bbbe297170ed7a262360d5675a6e89017168911c5e"
+   "79f64c91b711f8eb16f9e20caec2c530747e7ac9c68fbfa5b3d30e52f71f3a76"
   ],
   "terms_urls": [
    "https://www.jegs.com/website-terms-of-use"
@@ -8073,24 +8296,20 @@
   ]
  },
  "jjill.com": {
-  "evidence": {
-   "agent_legacy": [
-    "You and we agree that we will resolve any controversies, claims, counterclaims, or other Disputes between you and us or you and a third-party agent of ours (each a \u201cClaim\u201d) through binding and final arbitration, instead of through court proceedings, in accordance with the Rules of the American Arbitration Association (\u201cAAA Rules\u201d), except as the AAA Rules are altered by these Terms."
-   ]
-  },
+  "evidence": {},
   "features": {
    "agent_allowlist": false,
    "agent_ban": false,
    "agent_human": false,
    "agent_identify": false,
-   "agent_legacy": true,
+   "agent_legacy": false,
    "agent_liability": false,
    "agent_rule": false,
    "agent_signed": false,
    "agent_thirdparty": false,
    "ai_training_ban": false,
    "auto_purchase_ban": false,
-   "automation_ban": true
+   "automation_ban": false
   },
   "robots": {
    "ChatGPT-User": true,
@@ -8100,7 +8319,7 @@
   "robots_sha": "2c56921b2b5e067ef0c17e202379c79815f90e95ebd4e16997c6e519f5a7f983",
   "stance": "none",
   "terms_sha": [
-   "f1bd92b16ecc09ccf09aab96e6e1152e2e2dd229659d8ce0d6f303da043e18f4"
+   "e1225dc4fe130e33e9dcd29f434fc667836199175015b83f31e3f70deaeec10b"
   ],
   "terms_urls": [
    "https://www.jjill.com/website-terms-of-use"
@@ -8108,12 +8327,29 @@
  },
  "joann.com": {
   "evidence": {},
-  "features": null,
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": false,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": false,
+   "auto_purchase_ban": false,
+   "automation_ban": false
+  },
   "robots": null,
   "robots_sha": null,
-  "stance": null,
-  "terms_sha": [],
-  "terms_urls": []
+  "stance": "none",
+  "terms_sha": [
+   "f3aa13ec44ed7a72f3514479860d159f6727dd7298bcf518bf686c8316873f65"
+  ],
+  "terms_urls": [
+   "https://www.michaels.com/lp/welcome-joann?joannweb"
+  ]
  },
  "johnnyseeds.com": {
   "evidence": {},
@@ -8199,7 +8435,7 @@
   "robots_sha": "668e001197cd6f30aff166d9c98c64f86b5f796d61d4da0651a3b23c074d5c11",
   "stance": "none",
   "terms_sha": [
-   "00893a2b4c828ca43cd1b1d7c9445239fe479af035f940df6491e6947f2d9c1c"
+   "263f1a1ad69ea688300a90b965bbc2c1b344f8725a83a1429e7928ef810be2a1"
   ],
   "terms_urls": [
    "https://www.jonesroadbeauty.com/pages/terms-conditions"
@@ -8259,7 +8495,7 @@
   "robots_sha": "46973a96cda2fb7fe11d020594eac59ffe1f05004622b1550c700fbedcc30db0",
   "stance": "none",
   "terms_sha": [
-   "e9c7dad69b0f1d32db93d53237538ce0a0641d6da378c8e7940a50f7d3ac3b2d"
+   "d019173e1ce6942dd894aae5ba8bb01977e729bf0b2e5840a606ee99607d6ad1"
   ],
   "terms_urls": [
    "https://www.jpcycles.com/customer-service-terms-and-conditions"
@@ -8359,7 +8595,7 @@
    "Claude-User": true,
    "Perplexity-User": true
   },
-  "robots_sha": "9ab75363a955f10af0b263961c83a049fe6a3ff06238007d42e9101029cee258",
+  "robots_sha": "1a37928c63a078af738d2acc4591b8880955f21c9121e89f0160c73a80e77943",
   "stance": "none",
   "terms_sha": [
    "511f041a3682e3c4a2b43375e8356284ca5a75f61bbd9fcf16159c7dbf906658"
@@ -8422,7 +8658,7 @@
   "robots_sha": "28040044ccf46979bfe83e819c9ce1e42af8c595fee05baa01b03d4813086f22",
   "stance": "none",
   "terms_sha": [
-   "5706f1d28f0f9145a51413738036e41dd432c1d392cb9468b5a07353ace0bd04"
+   "34286df6abbcf2e493d70090873d63beff01b69ead70834d6e80e42fc93239bb"
   ],
   "terms_urls": [
    "https://www.kendrascott.com/terms-conditions.html"
@@ -8452,7 +8688,7 @@
   "robots_sha": "38b615fd8e775306312741bcb881c339b5b9e0c7fdaf25a2b730af25c900ddbb",
   "stance": "none",
   "terms_sha": [
-   "4265a412007b3c49bb0f1ffacd3b0968053d4157ebd75677281d7aa5338567e1"
+   "6773a6ad9678ca2bf31dda9ff27589b46a9e8fc5759e8d978dae40601bb46f20"
   ],
   "terms_urls": [
    "https://us.killstar.com/pages/terms-and-conditions"
@@ -8490,29 +8726,59 @@
  },
  "kirklands.com": {
   "evidence": {},
-  "features": null,
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": false,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": false,
+   "auto_purchase_ban": false,
+   "automation_ban": true
+  },
   "robots": {
    "ChatGPT-User": true,
    "Claude-User": true,
    "Perplexity-User": true
   },
   "robots_sha": null,
-  "stance": null,
+  "stance": "none",
   "terms_sha": [],
-  "terms_urls": []
+  "terms_urls": [
+   "https://www.kirklands.com/terms-of-use/"
+  ]
  },
  "kohls.com": {
   "evidence": {},
-  "features": null,
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": false,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": false,
+   "auto_purchase_ban": false,
+   "automation_ban": false
+  },
   "robots": {
    "ChatGPT-User": true,
    "Claude-User": true,
    "Perplexity-User": true
   },
   "robots_sha": "e6914841686cb64a128aa45979ef77bd93aefdeb08a165fbe12ae934f4bbc3a5",
-  "stance": null,
+  "stance": "none",
   "terms_sha": [],
-  "terms_urls": []
+  "terms_urls": [
+   "https://www.kohls.com/feature/legal-notices.jsp"
+  ]
  },
  "kroger.com": {
   "evidence": {},
@@ -8556,7 +8822,7 @@
    "agent_thirdparty": false,
    "ai_training_ban": false,
    "auto_purchase_ban": false,
-   "automation_ban": true
+   "automation_ban": false
   },
   "robots": {
    "ChatGPT-User": true,
@@ -8567,7 +8833,7 @@
   "stance": "none",
   "terms_sha": [],
   "terms_urls": [
-   "https://support.ksl.com/hc/en-us/articles/1260800721790-Terms-of-Use"
+   "https://support.ksl.com/hc/en-us/articles/1260800721670-KSL-Classifieds-Terms-of-Use"
   ]
  },
  "kuiu.com": {
@@ -8701,7 +8967,7 @@
   "robots_sha": "69d8a90e1983b65db2fcb155f0a39a82faac0be04b7d8d31f4ebe1dc4040d377",
   "stance": "none",
   "terms_sha": [
-   "3423284a22954f0008424316f15dc5d1b91a45d60d880a76421a4944f371915d"
+   "3c0b86299f2f80aff56218d2ffc7564491a232089b72990a4b8fb6bb1453757d"
   ],
   "terms_urls": [
    "https://www.lanebryant.com/help/terms-of-use"
@@ -8761,7 +9027,7 @@
   "robots_sha": "1d06f5f46e3d064a8c9d80093ba60a8e173511007fb6486091b07a3bc2817292",
   "stance": "none",
   "terms_sha": [
-   "2483dcfb0206c5d7b98cbacd34622d2d9570c906e7c817d28a86d52207bc0a6b"
+   "9271e1b47a90c53acab7cc5de5edd0ab102bba9f61b393fe35a95dbae1d18665"
   ],
   "terms_urls": [
    "https://www.lastpass.com/legal-center/terms-of-service/business"
@@ -8791,7 +9057,7 @@
   "robots_sha": "d1d86b59d8f5b7df377c721164d95139da8a9382dc2eb1c273110a799f5d7502",
   "stance": "none",
   "terms_sha": [
-   "446dd5039f16687ec0a6783d0153cc0d57e486ad53644c91e6cd0ee51ba6375a"
+   "840cdad0bd33397244acbfea280f333e4eccf26ff33e9a64e9bc323e9edc46f3"
   ],
   "terms_urls": [
    "https://www.laurageller.com/pages/terms-conditions-vb"
@@ -8825,7 +9091,7 @@
   "robots_sha": "29d4ded50eb341578f89adee202a05ef8a0c62bedc4cd134f6a48a991bc8f059",
   "stance": "none",
   "terms_sha": [
-   "3ce185ecd561d665868092d3e45e4c157721a66f6fde15e8a7dbce8da2bdf741"
+   "8d95159a788561a6041028df4c13c6f0694642cbd4773011cac22a0a80445045"
   ],
   "terms_urls": [
    "https://www.leafly.com/info/terms-of-use"
@@ -8945,7 +9211,7 @@
   "robots_sha": "e6ed4b365a86e8bb081187911e9fc85ba46f7d9bee22a4a2949d619b69694949",
   "stance": "none",
   "terms_sha": [
-   "0be9fa0459f6ada5da190576a0980137bb55eab30a1df49c1b3971d91bdd1fb2"
+   "d8f5bbd75d01886b4b0897f578a62e956d48f13484d6be4a4db01019ba135906"
   ],
   "terms_urls": [
    "https://www.lego.com/en-us/legal/notices-and-policies/terms-and-code-of-conduct"
@@ -9005,7 +9271,7 @@
   "robots_sha": "d2c10d01df85f3c32f0985e970c9562ddcabc1f25315d840d63759e184e84d51",
   "stance": "none",
   "terms_sha": [
-   "669498927d50eb3d8703668d13d4e5ec465bd263b1a72136773ae88003fcab36"
+   "b8b0bb71ab88ae95f3944b6cd8f817ab8aaa847ab5d84ea5607325fcd7a1893c"
   ],
   "terms_urls": [
    "https://www.lenox.com/pages/legal"
@@ -9078,7 +9344,7 @@
   "robots_sha": "772686194be966f01d80e2f360d5ae99bd275509ffc2ad0a7f0260902d11d2d6",
   "stance": "none",
   "terms_sha": [
-   "d73dfe7907404a064bb89354f118ac70dcba987f9d4025cd880b9ee33621181e"
+   "d20cb35f5283a0f50e096e56567200c028404811ec2b8e875a35fa9787917409"
   ],
   "terms_urls": [
    "https://lifeisgood.com/policies/terms-of-service"
@@ -9098,7 +9364,7 @@
    "agent_thirdparty": false,
    "ai_training_ban": false,
    "auto_purchase_ban": false,
-   "automation_ban": false
+   "automation_ban": true
   },
   "robots": {
    "ChatGPT-User": true,
@@ -9108,7 +9374,7 @@
   "robots_sha": "8a4e20b56a2993bff4cf171f20fe6a351af67a8adc215cf17961a5145284785c",
   "stance": "none",
   "terms_sha": [
-   "6159d90251de48e199a4bbc1232d59e8344b3c1beafd4e2638bcb0d2ba43cde9"
+   "d5a64655177ef75ec684fbfc9f1cbb10dc918a75a815d97ffa153890dc51fb40"
   ],
   "terms_urls": [
    "https://www.lightinthebox.com/terms"
@@ -9188,20 +9454,20 @@
    "agent_thirdparty": false,
    "ai_training_ban": false,
    "auto_purchase_ban": false,
-   "automation_ban": true
+   "automation_ban": false
   },
   "robots": {
    "ChatGPT-User": true,
    "Claude-User": true,
    "Perplexity-User": true
   },
-  "robots_sha": "de41d071219377ea408b20087db66e4a9e536e8ccd5b74db2f45cf1e535fa7cc",
+  "robots_sha": "e4b39851fb84360dc85c683e31f62b8eff5941df0bc2cabff25097cdbe7dc7b6",
   "stance": "none",
   "terms_sha": [
-   "927ead6e76df78bdec1555096736596b1fd9ee33da9f155aec646b436e1829bb"
+   "368e6a2b1d14123c126bd3f70ad4996fa95036970a64308eed23a5decb5c7412"
   ],
   "terms_urls": [
-   "https://littlesleepies.com/pages/terms-of-service"
+   "https://littlesleepies.com/password"
   ]
  },
  "llbean.com": {
@@ -9228,7 +9494,7 @@
   "robots_sha": "dc9d0639e19e84656e8a2c6b537449e09a95d4d5dbfd86eeedd2db84ea2ff7f0",
   "stance": "none",
   "terms_sha": [
-   "9162e8dd83e18227278911ed76b6416221de3f62d4ddb74159c6706b5fb6f462"
+   "25563e8d318ae263bb18f3133573e52c89a83a0d0b98f9df7dc0b319799d30c6"
   ],
   "terms_urls": [
    "https://www.llbean.com/llb/shop/517072"
@@ -9258,7 +9524,7 @@
   "robots_sha": "8638dadfa14941ad7c9b360f348da758d38e2679213311ff25dc3c254b7af920",
   "stance": "none",
   "terms_sha": [
-   "d6b7961f7e3932ff7cd8daeaf1a0b3ca66e90bead017bfec07069080123f7720"
+   "451b88b53d07206b14cbfa52eacb481b3b7336650d231eb394e033ba17472bb3"
   ],
   "terms_urls": [
    "https://www.loft.com/customer-service"
@@ -9288,8 +9554,8 @@
   "robots_sha": "ace4410507b529d54ce4ba627be008e2630d0a198a9d33b0bb399d92b7e92152",
   "stance": "none",
   "terms_sha": [
-   "698b885a1412e7533435cadb96791438c984599d2afe9c248a0aabf6d95a993a",
-   "e67e160f8b2652dc83fd5eda00954ef9d33077f0fe65dbd74e2cb3a93bb84ccd"
+   "595e6858071d3ac3cbb5b7b92533c4bd1d49de6e38eeb7d6efc20e21b04f359b",
+   "79a2f401f97cb18201c261331d5402be880bb61108489d6c07bb78de7542fa2e"
   ],
   "terms_urls": [
    "https://www.longchamp.com/us/en/footer-terms-sales.html",
@@ -9350,7 +9616,7 @@
   "robots_sha": "ff63afcbc0794bea4bd1d619337091a0b398dca9c3c84172e8d62352a6a66fca",
   "stance": "none",
   "terms_sha": [
-   "eee24da44d85225d86b9cb0d520b2282f3cb91108e8b4eb797dd44fc2e88e2cd"
+   "0a94439d42c6f775502db1a20a91d43d498fbb89aa93e3fec01da21b24954815"
   ],
   "terms_urls": [
    "https://www.lovense.com/terms-and-conditions"
@@ -9380,7 +9646,7 @@
   "robots_sha": "2640931f6408610fe77891ca46fc5a1a23aa2f4f2d24adb7b060d26e19e0d461",
   "stance": "none",
   "terms_sha": [
-   "455827266c5a48e6db1ac05b3f10cc6d2b4f8f8af734e60e16d0d963ff31c68e"
+   "9f5c5c196f7863745f05d081e7bd56ef4a3f72aeca288b82bd8f1213285d7f0e"
   ],
   "terms_urls": [
    "https://www.lovesac.com/terms-and-conditions"
@@ -9388,12 +9654,27 @@
  },
  "lowes.com": {
   "evidence": {},
-  "features": null,
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": false,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": false,
+   "auto_purchase_ban": true,
+   "automation_ban": true
+  },
   "robots": null,
   "robots_sha": null,
-  "stance": null,
+  "stance": "none",
   "terms_sha": [],
-  "terms_urls": []
+  "terms_urls": [
+   "https://www.lowes.com/l/about/terms-and-conditions-of-use"
+  ]
  },
  "ltdcommodities.com": {
   "evidence": {},
@@ -9419,7 +9700,7 @@
   "robots_sha": "7f4c758a06e5d5c61c3f391cf9eee5f377e6911fa98abfa5a08a929d37b4e6a9",
   "stance": "none",
   "terms_sha": [
-   "06fbdc06c0be5147d1c81c5ebb50ff1dc1016615ca2a92567fec446f7a760ee4"
+   "0d93edf032a0b1967190e318706eb431f2b209b5d42ea9957efa6944d5a9dbf4"
   ],
   "terms_urls": [
    "https://www.ltdcommodities.com/pages/terms-conditions"
@@ -9552,7 +9833,7 @@
   "robots_sha": "3c87d5f10448e7e0545e9b6e09eba67d124beadfe4514bcb580ecbf49e93c0a3",
   "stance": "none",
   "terms_sha": [
-   "9a468dd1907d0cb12c4dfc11963eaa68e963c528961e03fcf4d7c55a8a55aee9"
+   "40c31a21c014af6c526949f65e0346c47e8759178f2f6667b530a68c95d5730a"
   ],
   "terms_urls": [
    "https://shop.luvmehair.com/#erid52335753"
@@ -9612,7 +9893,7 @@
   "robots_sha": "9522e99a6d47ca3b164dcfda2a9fc66bf2db125d22f9cad5307bd7b0cbe97873",
   "stance": "none",
   "terms_sha": [
-   "1f7d8eff823e7afddc3cb86f9647414bfe81e46b6779518b5fd4e2c4371b6e70"
+   "86b7de562f3e7337ec1d8607c311433b260257c03fa8278a2da4c6f90e0e70bb"
   ],
   "terms_urls": [
    "https://www.cupshe.com/cms?name=terms-and-conditions"
@@ -9680,16 +9961,31 @@
  },
  "macys.com": {
   "evidence": {},
-  "features": null,
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": false,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": false,
+   "auto_purchase_ban": false,
+   "automation_ban": true
+  },
   "robots": {
    "ChatGPT-User": true,
    "Claude-User": true,
    "Perplexity-User": true
   },
   "robots_sha": null,
-  "stance": null,
+  "stance": "none",
   "terms_sha": [],
-  "terms_urls": []
+  "terms_urls": [
+   "https://www.macys.com/customer-service/articles/legal-notice"
+  ]
  },
  "madewell.com": {
   "evidence": {},
@@ -9745,7 +10041,7 @@
   "robots_sha": "805a99db55af60ad05679868d6dac2383189834a1be6ffd56e391d3c954de7d0",
   "stance": "none",
   "terms_sha": [
-   "382549becbddf49b3af90f49e19f5204494c87ff9c7ef7458b50fa273b7341dd"
+   "c6567c4d30cc39224b1dae00d62459d80f9edf68ff91dfe5b13f36774ed31873"
   ],
   "terms_urls": [
    "https://maggies-tanks.com/policies/terms-of-service"
@@ -9835,7 +10131,7 @@
   "robots_sha": "6b91d71786e9acddd10e1ff9a5fae2decaa8332d6868944e47b0b5039fd03a65",
   "stance": "none",
   "terms_sha": [
-   "fa904bad7977f5cd51ae51a469f63ed2f77dbdb172466a75b293b3b90ce00902"
+   "2c759621491062ed24982b5226950b40af3d19c541c223fa4bd3d116c6bb32e0"
   ],
   "terms_urls": [
    "https://marleylilly.com/policies/terms-of-service"
@@ -9931,7 +10227,7 @@
   "robots_sha": "660ab498b653456a3c8e09e5af71d2ec6489fd9e043bb3fbf3c126e05aef9f46",
   "stance": "none",
   "terms_sha": [
-   "f7f25489451e3fd11e2db03d33c8295dbbb9e77f8c6bfe3e43ed31c460d4ac4c"
+   "45d4383c2e5500c7649cf7a4585cae249214a2f5bd856aac846705ae32414442"
   ],
   "terms_urls": [
    "https://mejuri.com/company/terms"
@@ -10017,7 +10313,7 @@
   "robots_sha": "8d7441142860769e5e583b2f8235dd54fc5e8ebcb0be07ce8765d66b5963dde9",
   "stance": "conditional",
   "terms_sha": [
-   "d0d56a9f8fd4b723bf653e77788563a76705a625b9d5e94d76587aa4b49bb5a4"
+   "f30b189ff902ea1d6ddeeca6c1431d44ea297ebf20082f982c3806f288060db5"
   ],
   "terms_urls": [
    "https://metabolae.com/policies/terms-of-service"
@@ -10047,7 +10343,7 @@
   "robots_sha": "bd265bbb1a09d9a36a0f51be85defa3ecdd173f3a169bc2ec20a2c2ffe1f41b5",
   "stance": "none",
   "terms_sha": [
-   "e85c11aa0f8fdde32aff54fa428feb0cfd9e9d655288d00bb9f974f464fb1186"
+   "109c24147160fce1684ee9b7ccbae08aa71d721d666bb7557612913d7a9b2328"
   ],
   "terms_urls": [
    "https://www.metv.com/terms-of-use"
@@ -10087,7 +10383,7 @@
   "robots_sha": "78e2eef37b06afadad4d4178b9f5700d371351b5b0c504e8caef0ae6e20a0c0f",
   "stance": "ban",
   "terms_sha": [
-   "c3fab4da1e5ddff67b032290063a06c9ea3437a8a5ec929ef34467ba0f2dbe69"
+   "c879161eb5b0211807333efee4c46ef0634f84ed1adc79b52567763bfd76f63e"
   ],
   "terms_urls": [
    "https://www.mheducation.com/about-us/policy-center/terms-use.html"
@@ -10242,7 +10538,7 @@
   "robots_sha": "fae75ac3c6a6432ef05cd32b53e3c707a33dd3b9edfaffab260018b4eb4c7591",
   "stance": "none",
   "terms_sha": [
-   "9cf2f48c6ad50203df917c6651a43c9ffb181e0cf894b6266eaa6f5937fcbb7a"
+   "9426b73b6ba2acbf6b269ad18b0c56c0857d264741dc38c19864a263f7c54df2"
   ],
   "terms_urls": [
    "https://www.missouriquiltco.com/pages/missouri-star-quilt-company-inc-terms-of-service"
@@ -10362,8 +10658,8 @@
   "robots_sha": "0a86c67abbcfa7f368443e3a47ccebb71278e9eee111352b6b0f04dcb6c9c966",
   "stance": "none",
   "terms_sha": [
-   "9fd395641b3edefaf059179b8561da77e2750003d723019c28408a2f6129eafb",
-   "c3b42c3ea8e565e85df1172d0bdade038dd9d37421aa5d242e5d1d83383536c5"
+   "8b1c805e63a554f03a313b7437e8dd0bf272a2742d895a5978a8f3375abb2269",
+   "b94f18d5ccde375859494add597ff7f2d187501e6d76b7b52c7c62529de8b27c"
   ],
   "terms_urls": [
    "https://www.motorola.com/us/en/legal/terms-of-sale",
@@ -10454,7 +10750,7 @@
   "robots_sha": "a2ea5a2d92d178132ebb2f9a4b19eea3d4e37a4effd5d26b11b59a541ec73375",
   "stance": "none",
   "terms_sha": [
-   "6507dfc27c9b5e82936a29875578a3a4a273739ebd1ae05ddfb84995f8e6abf4"
+   "bbe1596c45684c22c4ae6fc848cff092f6c3d2a32f6426dd6a502ee1b1df4afb"
   ],
   "terms_urls": [
    "https://www.mykitsch.com/pages/terms-of-service"
@@ -10535,16 +10831,31 @@
  },
  "newbalance.com": {
   "evidence": {},
-  "features": null,
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": false,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": false,
+   "auto_purchase_ban": false,
+   "automation_ban": false
+  },
   "robots": {
    "ChatGPT-User": true,
    "Claude-User": true,
    "Perplexity-User": true
   },
   "robots_sha": null,
-  "stance": null,
+  "stance": "none",
   "terms_sha": [],
-  "terms_urls": []
+  "terms_urls": [
+   "https://www.newbalance.com/terms.html"
+  ]
  },
  "newegg.com": {
   "evidence": {},
@@ -10598,7 +10909,7 @@
   "robots_sha": "9494e4b9053838fbc60e390a3f03f3b967e4322bff2c90081f9523e86635ed09",
   "stance": "none",
   "terms_sha": [
-   "40f5787a5c8d3300d13804dfc6b79f083e14c99c2173db22a4ab6cfe610378a2"
+   "05e17f43930774a1dc83e543a1f624ec2d08337ecb21cde902a774415e877293"
   ],
   "terms_urls": [
    "https://www.neweracap.com/policies/terms-of-service"
@@ -10628,7 +10939,7 @@
   "robots_sha": "e7c9dee732ff7c52f239018c040ddb3592145b5c86281e1278d570265c71390d",
   "stance": "none",
   "terms_sha": [
-   "a0606477597878e41f13ff64c6880c367ac6b39c6959564a129b9e169bfd1b04"
+   "bcd55dfca41820f06c3090598993b3ca753ded62731bac03fcb9aa7411a8d74e"
   ],
   "terms_urls": [
    "https://www.nfhsnetwork.com/termsofuse"
@@ -10731,7 +11042,7 @@
   "robots_sha": "266140a3a7df7b89630361117ead60909723755145351be83bc1a5bffc924cc7",
   "stance": "none",
   "terms_sha": [
-   "32e50dc918eab9fb6c092c8aab5328fe7590359bb35ae32bd79a99a4ef4133cc"
+   "c6786d6b67c2cb1597c368c0a9f9782540792e3d5ca9dad647ba8aec63e75612"
   ],
   "terms_urls": [
    "https://ninjatransfers.com/policies/terms-of-service"
@@ -10791,8 +11102,8 @@
   "robots_sha": "f8c226005c8eb765687cba8cda808486af4fc5d617fd535af396fb836bca344b",
   "stance": "none",
   "terms_sha": [
-   "a67733d2ab469c90123ab54af7eb9c05168c1a3dccf972c911d1b0fe9d3c32e9",
-   "babc747aa17db3cabb89c15b2ad4c9ccb97c5c1da2cb54ce2ab186035d0d5d94"
+   "0f296910e7679824aa25038d9530fe163b182370d866fad8930e218c9203e529",
+   "98f6f7a6e99ef31ea112ae5d2a09b8e8b12bbf92788241d11390e994a0dad549"
   ],
   "terms_urls": [
    "https://nobullproject.com/pages/terms-of-sale",
@@ -10801,16 +11112,31 @@
  },
  "nordstrom.com": {
   "evidence": {},
-  "features": null,
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": false,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": false,
+   "auto_purchase_ban": false,
+   "automation_ban": true
+  },
   "robots": {
    "ChatGPT-User": true,
    "Claude-User": true,
    "Perplexity-User": true
   },
   "robots_sha": "73fbcd4795943ac2fa529794c99544f10bc3573634f50ca3a4c540056b0486e5",
-  "stance": null,
+  "stance": "none",
   "terms_sha": [],
-  "terms_urls": []
+  "terms_urls": [
+   "https://www.nordstrom.com/browse/customer-service/policy/terms-conditions"
+  ]
  },
  "nordstromrack.com": {
   "evidence": {},
@@ -10836,7 +11162,7 @@
   "robots_sha": "f6d80792e564c86339209f787004c9df2f65780702dee01ca1a36bc5d2abb3e2",
   "stance": "none",
   "terms_sha": [
-   "c974a917939aba1a0c80ee5fa3257ccb5157be33b07961e6135c383fc11d9a64"
+   "bb5ff9db483131b35e9c45b117b990d3c91e24d74e24cfd4d1216826df650a47"
   ],
   "terms_urls": [
    "https://www.nordstromrack.com/customer-service/terms"
@@ -11068,7 +11394,7 @@
   "robots_sha": "04f8792a8b08712d21b88394de35e0692b4fbc14e41e8faac21c79b2d23af7df",
   "stance": "none",
   "terms_sha": [
-   "31f834d72532668e848e576f0a4a7703f4f758481b44732413fbd1b2e9eb566a"
+   "b51951f99af5fce0d1ec76845da54385521b2695d909ce19939f61b53f60b078"
   ],
   "terms_urls": [
    "https://www.officedepot.com/l/help/terms-of-use?cm_sp=FooterLink-_-Terms-_-TermsOfUse"
@@ -11111,7 +11437,7 @@
   "robots_sha": "35c7fef49715d32ba587eb91572cefcf0853a9235021b4f77213230ac1a73832",
   "stance": "none",
   "terms_sha": [
-   "f729073fba12869cd6591d88cebf67bc9ef9ba422e52141e8ab446ff111caf15"
+   "154718b5d4834548ccfdfe07bf296ff85c18c8966844ae1d58a0f436572e1746"
   ],
   "terms_urls": [
    "https://www.olfactoryfactoryllc.com/policies/terms-of-service"
@@ -11171,7 +11497,7 @@
   "robots_sha": null,
   "stance": "none",
   "terms_sha": [
-   "8767975bf1a5bc88e3511361246631a3de5edfb87dcfb684794db4b0a8b6f247"
+   "18d4f75d44196f890fcc9c694c584efc8c7184162be49a7ff1df417b96e2531e"
   ],
   "terms_urls": [
    "https://www.ollies.com/"
@@ -11304,8 +11630,8 @@
   "robots_sha": "baf95842e5efce3d521549ef7bf72f60dbae6a1fc46a5acebcf1ab348eb846bf",
   "stance": "none",
   "terms_sha": [
-   "12f525b122028234e07c832acc63d9ec3f49f5115426ea5ee2bbdcb1047331b7",
-   "ed052d136d3edce8556bda408575b3cfb0790cd1d64eb1b91ef095bd9987a66d"
+   "3538ed8cd3dd35f2fbf3d9167c6ff5c104fe2e55e7e3a0960e4f855c0c10e320",
+   "d0062966151298789f61034829be61101d5e6acc54653c37c85636e040d8a37d"
   ],
   "terms_urls": [
    "https://www.otterbox.com/pages/terms-of-sale",
@@ -11362,7 +11688,7 @@
   "robots_sha": "0d99a861e149892d42cdb0a669ffa32d0186bc8307cc9c1de7504494a64ce19c",
   "stance": "none",
   "terms_sha": [
-   "93679a88b3dd21b0f1786f90b503ee1756dfefcbc75381cd63d6269dae2e4835"
+   "91f347070f0aff4b13d8fb0f83fc43569ca0a9d6566b8e05b05370d1f4400203"
   ],
   "terms_urls": [
    "https://www.oxknit.com/pages/terms-conditions"
@@ -11392,7 +11718,7 @@
   "robots_sha": "d739dc23d07659db5cc58bc6bd3680cd697b6a7e3e8ad80693c4ddedef573bea",
   "stance": "none",
   "terms_sha": [
-   "9c011dd6b38a2e9cca2817337deb18fbd693132275bee050ed968583f972258f"
+   "9291066bc17c91b3ad810ac6e2c89e02d6e270bb0c9ada99390143a2fe82bfb1"
   ],
   "terms_urls": [
    "https://paireyewear.com/policies/terms-of-service"
@@ -11422,7 +11748,7 @@
   "robots_sha": "dbb492e0671187258d672235c174b108a0972d2775a9f73a132c7fd00437deb9",
   "stance": "none",
   "terms_sha": [
-   "25e048b62a3b193e0b0feff1e836122b84a84bc7179dc6473fee69b66c2b70bf"
+   "b01332ee51b415fbfd022e153142a226dd0cac1a3d782fec9fd3f9ae26936c49"
   ],
   "terms_urls": [
    "https://www.paperlesspost.com/terms-of-service"
@@ -11675,7 +12001,7 @@
   "robots_sha": "ade9067a8efdb5264436200c703d9bc61f029aa7252e14932081c9c82f59b36b",
   "stance": "none",
   "terms_sha": [
-   "ddf2155881254430d62173b06161f617295841f9e2ec104855c4f5ea46a356ec"
+   "d7444220b71d2304009c59ece3c736b6ba843d972f54f52e6a3e785f225a266b"
   ],
   "terms_urls": [
    "https://www.personalcreations.com/info/termsandconditions"
@@ -11733,7 +12059,7 @@
   "robots_sha": "36dd24794d009fb79367e977a01c8a8bb638db196a6a9cfe0ccc5d857829a188",
   "stance": "none",
   "terms_sha": [
-   "b943c1d5dcfb290082604d01408d26d059b7248ad27545462fa558b09dbc26a4"
+   "d8f41628f4269e4948bcb0970743fa19bd6e0d0d86d36700fadffd7909749f88"
   ],
   "terms_urls": [
    "https://www.petsmart.com/help/terms-and-conditions-H0010.html"
@@ -11770,7 +12096,7 @@
   "robots_sha": "a3b824bb499784fcfda6b2735cd02c5a2ff7d8f6a6a813f2474042fa89c3763f",
   "stance": "mention",
   "terms_sha": [
-   "db284b0adccdaef05f39b3a82183993c7261740a300f4833124c75e16756e158"
+   "cc7a9182c3d8d392f8f31cf983008b1b9c2e92b138d64babbb8ab78f1821f09e"
   ],
   "terms_urls": [
    "https://www.pgatoursuperstore.com/terms-of-use.html"
@@ -11830,7 +12156,7 @@
   "robots_sha": "ffec36d5beeaed78ef2d73fa2c22ebac98314bdcb169f5e858a1ede3b79bf341",
   "stance": "none",
   "terms_sha": [
-   "e6f9babb87bfcc41ab05d06b56abefa6769e0115f687490831449778e9ce79db"
+   "aff63f60a3889ee41944b7683a19969d8307f55c147c310cdebe71b44d9d73d8"
   ],
   "terms_urls": [
    "https://platinmods.com/help/terms/"
@@ -11890,7 +12216,7 @@
   "robots_sha": "177b969e8820e0e629da166b46063d0cc0f821c91824b36846cd115f3a96e4d6",
   "stance": "none",
   "terms_sha": [
-   "8c337f3226d474a66033fac54ef0f37b5341a6f54e105e3b3381ecafb8236fd0"
+   "c8bad6f076bde2e8b7a41575a82e00a2b691b4a18fac816aff0fb7171d1c352e"
   ],
   "terms_urls": [
    "https://www.ponchooutdoors.com/pages/terms"
@@ -11963,24 +12289,43 @@
   "robots_sha": "d5164f0ccfdfb623231960d98201a100c33e5bc24a85cee6d9964866e7c7a36a",
   "stance": "none",
   "terms_sha": [
-   "c77e5dbd560e58e06a46037ee8bdda232adc5566ed618a4ed9ef931b5e50f465"
+   "85ad07c8306f4910f3cbd949a449ce18d9dda60282b23175c61ee15cf73f2990"
   ],
   "terms_urls": [
    "https://www.portlandleathergoods.com/policies/terms-of-service"
   ]
  },
  "potterybarn.com": {
-  "evidence": {},
-  "features": null,
+  "evidence": {
+   "agent_legacy": [
+    "You and Williams-Sonoma, Inc. agree that, except as set forth below, we will resolve any controversies, claims, counterclaims, or other disputes between you and Williams-Sonoma, Inc. or you and a third-party agent of Williams-Sonoma, Inc. related to the scope of the agency (a \"Claim\") through final and binding arbitration instead of through court proceedings, in accordance with the Consumer Arbitration Rules of the American Arbitration Association (\"AAA Rules\")."
+   ]
+  },
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": true,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": true,
+   "auto_purchase_ban": true,
+   "automation_ban": true
+  },
   "robots": {
    "ChatGPT-User": true,
    "Claude-User": true,
    "Perplexity-User": true
   },
   "robots_sha": null,
-  "stance": null,
+  "stance": "none",
   "terms_sha": [],
-  "terms_urls": []
+  "terms_urls": [
+   "https://www.potterybarn.com/about-us/terms.html?cm_type=fnav"
+  ]
  },
  "povison.com": {
   "evidence": {},
@@ -12062,8 +12407,8 @@
   "robots_sha": "a5660a05ab16b984b966addca28df1d3d08ab8309406a269cfb9982a00b98ea5",
   "stance": "none",
   "terms_sha": [
-   "859abce32daad4958cbc9e58c57a185ce15b9ec3c038fb5641f0699fb647813d",
-   "f279229415c6f79dc180af45118f198e4065cbde2e338952289bfe4fa5ba0598"
+   "3f3c5fc2a8f0712f13659f111660c2ed4a9d6c0d820acec527f59d2bf64046a3",
+   "ffeb22ad4aa50379489a54385b477fb58fe1ea3a99e48bf98e4c149447c7cf5f"
   ],
   "terms_urls": [
    "https://us.princesspolly.com/pages/terms-of-sale",
@@ -12139,7 +12484,7 @@
   "robots_sha": "80357bd68b479f4eb00d66af495c5d01846505aaf4458efe748d26b579481111",
   "stance": "none",
   "terms_sha": [
-   "ac41ab45e8c08e27def2d9ee9139477630213f0f5a4ec06c3e2229e23c64a92b"
+   "9b676ecc91d0b5c75632c340b5bf9b9adebf597d6f8723aa0be51467aabfbf97"
   ],
   "terms_urls": [
    "https://www.publicstorage.com/terms-and-conditions/terms-and-conditions.html"
@@ -12257,7 +12602,7 @@
   "robots_sha": "090482647618cf2fe79225474ac2bf51f5e8841c8e50aae14b516ab4946791e1",
   "stance": "none",
   "terms_sha": [
-   "737b28f4fd2ad8b921749a6dfad78eb3c816de43a5893580af38159bb97033af"
+   "dc30d05659275f84ac70f00a2b857fcdf82dc1dbecaa8f68ee43f52a1011eb70"
   ],
   "terms_urls": [
    "https://www.quill.com/content/index/help/other/terms-conditions/"
@@ -12687,16 +13032,31 @@
  },
  "revolve.com": {
   "evidence": {},
-  "features": null,
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": false,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": false,
+   "auto_purchase_ban": false,
+   "automation_ban": true
+  },
   "robots": {
    "ChatGPT-User": true,
    "Claude-User": true,
    "Perplexity-User": true
   },
   "robots_sha": null,
-  "stance": null,
+  "stance": "none",
   "terms_sha": [],
-  "terms_urls": []
+  "terms_urls": [
+   "https://www.revolve.com/termsofuse"
+  ]
  },
  "revzilla.com": {
   "evidence": {},
@@ -12722,7 +13082,7 @@
   "robots_sha": "8d4c1337e5bddb605b5ccb758beac44f2a0d5c9781b0e6f275d4188bb6bed4dd",
   "stance": "none",
   "terms_sha": [
-   "f482e30fdca0a7f7d1f0dc2d24d9506e75bb83f582218bf455c9568276de4f13"
+   "2fec9a5130c6da43705a936fc0a649d9ceb70f6a1f24842539cc8ac151c23c52"
   ],
   "terms_urls": [
    "https://www.revzilla.com/customer-service-terms-and-conditions"
@@ -13084,7 +13444,7 @@
   "robots_sha": "15f9ba8d7bb1e48a1f6460bcd7f439609bf871bb2f35f47eed8e6d7d129fed7f",
   "stance": "none",
   "terms_sha": [
-   "525f2056e993acf7678224fc7b51220ea75b32b434f0dda311b9b7a8e00817fc"
+   "0dd754feeaf302ae971d35cdb925c8fb571b3c4ba64cd0b9b57ccbb529adb510"
   ],
   "terms_urls": [
    "https://www.rudis.com/pages/terms-of-use"
@@ -13475,7 +13835,7 @@
   "robots_sha": "1c73711f8ac162513ff10e4c8cba7e27ba3b44b3be68d1c1a43d0196a83849fb",
   "stance": "mention",
   "terms_sha": [
-   "9d3f4c63535c4815514ff8cedd672bb820ec7c578f9c2da5c324985e7a15f72d"
+   "481a7463e5a9f9cc0915b4de3d43adcb957e12cb8948f8295e733c969f4ad1c2"
   ],
   "terms_urls": [
    "https://sdbullion.com/terms-use"
@@ -13505,7 +13865,7 @@
   "robots_sha": "6efd04c13ae3671c394235f651cc858c13d03f8a6993c3fb80f28b9898ebacb2",
   "stance": "none",
   "terms_sha": [
-   "8c8c3fca0c57c594748c798ab21091b191fed9780d6d8dca490e5c93bee445bb"
+   "266bce2dd0937f9d444a5b57903bc5bf43419eb40c7e2f91bc0056e14d948502"
   ],
   "terms_urls": [
    "https://secretlab.co/pages/terms-and-conditions"
@@ -13617,7 +13977,7 @@
   "robots_sha": "387cbe52bb83f2566b54affc1304da19377404642fabdbfa96d094acf6cffbb9",
   "stance": "none",
   "terms_sha": [
-   "e967d836086928eaa4ba223f02e3cefb653b6767e1181500ebb31a12d6b62222"
+   "466d33445f003dcbc1375ff350c067ac6eeac504ec052bc09623f3e9ab3d0311"
   ],
   "terms_urls": [
    "https://shapermint.com/pages/shapermint-terms-and-conditions"
@@ -13886,7 +14246,7 @@
   "robots_sha": "3c87d5f10448e7e0545e9b6e09eba67d124beadfe4514bcb580ecbf49e93c0a3",
   "stance": "none",
   "terms_sha": [
-   "9a468dd1907d0cb12c4dfc11963eaa68e963c528961e03fcf4d7c55a8a55aee9"
+   "40c31a21c014af6c526949f65e0346c47e8759178f2f6667b530a68c95d5730a"
   ],
   "terms_urls": [
    "https://shop.luvmehair.com/#erid52335753"
@@ -13981,7 +14341,7 @@
   "robots_sha": "75d90b4d1140e43c4cf042e5c550abc3fa45342cb99fa4a60a7840a2698168a7",
   "stance": "none",
   "terms_sha": [
-   "945f6424e05e743fa22889c75a54ed32297de37d4ac7903a6b53ebc6184c82f5"
+   "54182a2a3020f6294cbd345d4322a933a24290ccf2f219415beb9c6848d61ca1"
   ],
   "terms_urls": [
    "https://www.shopbop.com/ci/v2/conditions_of_use.html"
@@ -14073,7 +14433,7 @@
   "robots_sha": "28e903010f0bddfc388a1584463ec7f666ad59e0223e7e16bbc50aa83cda215e",
   "stance": "none",
   "terms_sha": [
-   "6e5790e9bfff94ae783166188591f0f93fbc5df4e468dd8f4aa9d47d2b4cfdf8"
+   "ab5b1823877d7fa93de1d6d6c5ee138ef3574376b4a39a855f7ea1ed4e483aed"
   ],
   "terms_urls": [
    "https://shopmicas.com/pages/terms-of-use"
@@ -14133,7 +14493,7 @@
   "robots_sha": "6f815f75bff86ebdfe7e9f93f419b1243411337b9bb4210e31dd746273405ccb",
   "stance": "none",
   "terms_sha": [
-   "442eedcae6aad4cce9aefaa0fa35b4c12808f92d01e7dee6a6ff87d996d46c93"
+   "fb1aee69a6e974e9f796446ac6de3623c6e0cad0cbe38fb116dc1d24ae738940"
   ],
   "terms_urls": [
    "https://shopmoco.com/policies/terms-of-service"
@@ -14193,7 +14553,7 @@
   "robots_sha": "8af18f6d8910b2fd7bd2436025859f550d56e20632e05b8ea768ad791a43991f",
   "stance": "none",
   "terms_sha": [
-   "1c4558461bef0201715be59f9975c11e65a1a5696f9f03888849c454edbb4c6c"
+   "7459986984e2f072a256f46e0948273fd8779700b28bec512af5697f8ec92c1f"
   ],
   "terms_urls": [
    "https://www.shopwss.com/pages/terms-of-use"
@@ -14434,7 +14794,7 @@
   "robots_sha": "1927c192a8990433e495f50eef825f01eeda16943f24ece936a6be6f6852cc67",
   "stance": "none",
   "terms_sha": [
-   "a62fc3b7950ce8b9d5ed478c65d80d637ce5fc41fc588aa02912386c83eb604e"
+   "04b5c764780d39fc87fe0afd2561c861e5bb34b59a64a490d276d46aa3dcfa66"
   ],
   "terms_urls": [
    "https://smokekind.com/policies/terms-of-service"
@@ -14494,7 +14854,7 @@
   "robots_sha": "65f0e0a2c00c0d8a40e2c72ac9425e57cec681edce3a99b1ededb0d6699f46df",
   "stance": "none",
   "terms_sha": [
-   "a0e5a913eacc9e280090d53615bfe7b861ba27ae5a613e047ebce6bd05e62d6d"
+   "d4cf677297851ad3796214fa88ee1a74965d9a16203d9861714278f76e31b7fe"
   ],
   "terms_urls": [
    "https://snagtights.us/policies/terms-of-service"
@@ -14524,7 +14884,7 @@
   "robots_sha": "e97ebe419349524bf95c7c014a5a1ecab1917138e49f046602f12a2b2b6be109",
   "stance": "none",
   "terms_sha": [
-   "884859d17ae176e002266ae400910678db83ab22c6efcf21339440231433c2c2"
+   "ed8fb97c02c56d50fb578adbc31a376e1298e5bec0a5e9168dc495a022b5b86a"
   ],
   "terms_urls": [
    "https://www.snapfish.com/home"
@@ -14584,7 +14944,7 @@
   "robots_sha": "cea77c3b58939df07f741f059993dce567edab170ea12f5f6f3bd763f4648f73",
   "stance": "none",
   "terms_sha": [
-   "92162004141c57b11ae1c2af70436cbf66d7b13c38833bd49f8735bcf083149b"
+   "33c209033367c2bfc4e2e3f225e506d6f2ee9bf55bacdec95b30b6893a915e56"
   ],
   "terms_urls": [
    "https://sofyre.com/policies/terms-of-service"
@@ -14614,7 +14974,7 @@
   "robots_sha": "494ce4e51d93e9ba8426b70206a989d711e5eaa3dcb3d4609c65e5c30b18d782",
   "stance": "none",
   "terms_sha": [
-   "9edf8be78678c1c0c5e26ab191324a941a8ded3e44ec56f30ff2df14dc0d9ec3"
+   "873f43e42e99d490bd23d34e8d7d5874589c77ad8af7fdcc92d4c755e3802997"
   ],
   "terms_urls": [
    "https://www.sperry.com/policies/terms-of-service"
@@ -14644,7 +15004,7 @@
   "robots_sha": "ee229acfccd20b6dceaaffd363c912a3ad4db6233f83f2e91cc71a1ca79f1c8a",
   "stance": "none",
   "terms_sha": [
-   "536474d41ba2f642e9c5f49f1ee073ee814cf3897100b57d2c3595fa5ced026d"
+   "64c06d945cf52ba25dbc353c90f0d3d6d745dd8081618c84f7bd791bc0aec5b4"
   ],
   "terms_urls": [
    "https://www.sportsmans.com/terms-of-use"
@@ -14704,7 +15064,7 @@
   "robots_sha": "7fa638b4028a50d503304cf33461506de7b6b67f262b59eb6d737be6240a75f4",
   "stance": "none",
   "terms_sha": [
-   "c526b4ec48938e9370fc4b76471bc1185300b3b072c8e3a2c907cf90a704c9a5"
+   "0e77df58eb421e814609bda3948d8de0c544ffc6e99460cf4da7a65ec6d63fe6"
   ],
   "terms_urls": [
    "https://squareup.com/us/en/legal/general/sqchecking-tos"
@@ -14839,8 +15199,8 @@
   "robots_sha": "e7412b08296061959708372f42d6b569632cc3deac171d897d55873d4149512d",
   "stance": "none",
   "terms_sha": [
-   "0836b1158a66247254cc886551335a44118bc545f55733446b1235c09fc010d6",
-   "596c1fa5868ea01a64dc59d8d8e320c4bbc2ce672a1bcceb8c9c3d24adb78bf0"
+   "39922f20ffa8664e8943a967e9cd78c12f507ad382aaaefc22aa4baed190f58a",
+   "f9c071dbbc74b4e3aff4e47f382cd69b7679ec407fed026c6dc1610b1226790d"
   ],
   "terms_urls": [
    "https://www.stevemadden.com/pages/terms-of-sale-1",
@@ -15047,7 +15407,7 @@
   "robots_sha": "0b18a347281cb9cff6dd432277a43781ff0ae604c9506a2caa18d43c8315dc82",
   "stance": "none",
   "terms_sha": [
-   "d972874ac45fcd967210d772a9f7b7dc4f1ad7594cf559f57d8850d0ccd4feff"
+   "b95fa30906e0488108c98ae51061da2c1c8b44d2db9184f38729a7ea074fb467"
   ],
   "terms_urls": [
    "https://www.swimoutlet.com/pages/terms-of-use/"
@@ -15081,7 +15441,7 @@
   "robots_sha": "a2874828e786a68954801404402ec044095250f243d3a58bd1b07f53489f38ce",
   "stance": "none",
   "terms_sha": [
-   "c6dafe6276d707c7d803b14cb27496f61015ce1ebe9da9e5da287190434b02ad"
+   "dd460b31aa1a5f886458ce1f3207d19d8a2c31c5d61a8967c0fdcf247f10c652"
   ],
   "terms_urls": [
    "https://tableclothsfactory.com/pages/terms-conditions"
@@ -15139,7 +15499,7 @@
   "robots_sha": "09e7997ab896fafbe67bf672f4417f3b594adfecf593db2c6e7c7fa070adc277",
   "stance": "none",
   "terms_sha": [
-   "dee1db8aecc2658b430b42afeb8f7a15f7c4e19c7f31a909c3378df4e1b8d59c"
+   "bfc6275eaea87830fd051cb4c71fcf00237cbd2e53ee2e23484f208f738e64b1"
   ],
   "terms_urls": [
    "https://tandyleather.com/policies/terms-of-service"
@@ -15278,7 +15638,7 @@
   "robots_sha": "4832bddf648642a6a0d4264d10adf26a9236a66f0bfc4f912880fb3bf8f8e23d",
   "stance": "none",
   "terms_sha": [
-   "f0eafa7610e5df9dcb298a05c683da9f742e5b746ead7c8374a24d544d0147f8"
+   "1f94e2ddd6e1431fad58e5066a67f8244f3733df5b7dbf76d247ebbfeeabac64"
   ],
   "terms_urls": [
    "https://tartecosmetics.com/pages/terms-conditions"
@@ -15351,7 +15711,7 @@
   "robots_sha": "70c67cfe9f88c5b31ecdcadf72cbf37b54639156315eb4d9001ff1f0af7a9519",
   "stance": "none",
   "terms_sha": [
-   "9f190bd470bc55c20e005c7bea98d71c3d1d2b3e0125b0d7d0b804e3e4d47ec0"
+   "5c0e4ff3d4ba23cfd36779ea92c45bde1a6de6dc6ac1b66324839b4ca9bbfb62"
   ],
   "terms_urls": [
    "https://theanimalrescuesite.com/#erid38326924"
@@ -15381,7 +15741,7 @@
   "robots_sha": "837f3eb14678593aa96b690fe3221adcec637fad14ed48e9a66ff9e535f5bbfc",
   "stance": "none",
   "terms_sha": [
-   "c9baf56129d25618e7fb7b66ffb8c9dfa82782d5b2a458a7bcb9ea6e3c7306bd"
+   "7f3e7832c3aff0a1726cc795b3d06dbe52985b11ca9def460ddad2e3fdb4fda7"
   ],
   "terms_urls": [
    "https://thecommense.com/pages/terms-and-conditions"
@@ -15730,7 +16090,7 @@
   "robots_sha": "1927f9cfccd958c26773c37b6658eb33d01b4209a56d9bda7514e2a7c929d614",
   "stance": "none",
   "terms_sha": [
-   "250c19ef22adaef064d1e824b24763c4538ccf089ff3cdf85c603764903e05ba"
+   "4cc9a4e7e989df19945eddcb166808bb96fe466183327d6e2d54aef728da0bca"
   ],
   "terms_urls": [
    "https://tnuck.com/pages/terms-conditions"
@@ -15818,7 +16178,7 @@
   "robots_sha": "20f9ed6b5686a8c0065464a87b6a1caa59cc769516de1d03e4f8d7950751a169",
   "stance": "none",
   "terms_sha": [
-   "6ad0626116c39282ae7c07faf1d4bea558f89ed0701e102460ca93df4c297322"
+   "be5d1669a140639b345325f1be76a201e44cb31a94e68f49b517e56a45e451db"
   ],
   "terms_urls": [
    "https://www.trees.com/pages/terms-of-service"
@@ -15881,7 +16241,9 @@
   },
   "robots_sha": "b1023cc677510e9dc06834df06905bd18938fc81d0415e906de03c857e403a27",
   "stance": "none",
-  "terms_sha": [],
+  "terms_sha": [
+   "1c9391f376f4d1ee82f5b58ac8a2c149c65427e9d15adbfa9d045c9d1af2f728"
+  ],
   "terms_urls": [
    "https://www.intuit.com/legal/terms/en-us/turbotax/online-license/"
   ]
@@ -15940,7 +16302,7 @@
   "robots_sha": "fbb1d3888bdcb3156ddc90ffd85538e0d7ae0d9a5de246052ff3bcde4906bfa9",
   "stance": "none",
   "terms_sha": [
-   "e360f8860794ac97b278a52c82212ccbf3e977ffc7160e3c98efcb282610e122"
+   "ab12aebb148461e57a8a5e9038d5867b07d9909917fed22ac94ba530f30c3c37"
   ],
   "terms_urls": [
    "https://www.uline.com/Terms"
@@ -16043,7 +16405,7 @@
   "robots_sha": "9b71bac39450734d56355ef4b028d45bb1e066b4f3eb95230e296a76702e9f02",
   "stance": "none",
   "terms_sha": [
-   "5c388763258ce1f76c7a4e4b36d908c6f2484381d5190e859b8bda2a684e7706"
+   "2ea2f45827cce0e198b9c9f336cde9be2f9fb26a9f24fea3a9af004c293433fc"
   ],
   "terms_urls": [
    "https://www.uniformadvantage.com/terms.html"
@@ -16099,7 +16461,7 @@
   "robots_sha": "4f7f6be3d30d207846bad2cfaa9686c42f1e5e3af91ee1af3cf32045bfc75822",
   "stance": "none",
   "terms_sha": [
-   "dc6b046dec4213d5e9cf28d2b5f221108cfcd2ecd35544ce68673f512bce9eb4"
+   "d6068c5a01df5aedd386bcef8cdf9f1674e5f064de8ce2ba8788e7c700dc58ff"
   ],
   "terms_urls": [
    "https://us.boden.com/pages/accessibility-legal"
@@ -16219,7 +16581,7 @@
   "robots_sha": "38b615fd8e775306312741bcb881c339b5b9e0c7fdaf25a2b730af25c900ddbb",
   "stance": "none",
   "terms_sha": [
-   "4265a412007b3c49bb0f1ffacd3b0968053d4157ebd75677281d7aa5338567e1"
+   "6773a6ad9678ca2bf31dda9ff27589b46a9e8fc5759e8d978dae40601bb46f20"
   ],
   "terms_urls": [
    "https://us.killstar.com/pages/terms-and-conditions"
@@ -16249,8 +16611,8 @@
   "robots_sha": "a5660a05ab16b984b966addca28df1d3d08ab8309406a269cfb9982a00b98ea5",
   "stance": "none",
   "terms_sha": [
-   "fbf145ba26e422111d94bfeff086ef8ad158b84486dbc5c43a44bdf57ac7399b",
-   "ff9be1122b90c215afcf46899b7b54474a7cbad9d6e422033ea7ceb5906631e6"
+   "41ab93df036c587acd05e8d62c2dbdd415da517019ff438437f7d7025a6c5169",
+   "5f18348f53a2e41ef59e0facfa08627975899e16fe583b3c2b1b64580a080375"
   ],
   "terms_urls": [
    "https://us.princesspolly.com/pages/terms-of-sale",
@@ -16438,7 +16800,7 @@
   "robots_sha": "e88ad726c8ac8b203ba4988c9568dca36be5694ccd2296ab81dc8e6bedcf7e51",
   "stance": "none",
   "terms_sha": [
-   "081f046c4541f19105ea51b40eb6f71f1b8e6d65fa73dc8b85626d037eeb5872"
+   "bdbb2a0751c03a70dd4fe5ff7f90546f461e5595418d7acbf595e37736e09fce"
   ],
   "terms_urls": [
    "https://vapordna.com/policies/terms-of-service"
@@ -16468,7 +16830,7 @@
   "robots_sha": "71190ae66aee7b7bf306c40fb35114ae3ed99872b6a67f9ee04bc3addf7cf867",
   "stance": "none",
   "terms_sha": [
-   "fb715ec3e85666ec7cdf05be564a38ed8d6fe1d9e4336b8548e625838b029d24"
+   "6e64abba09f1d986329f1110092d78c623ccb28bfddbc896b9cd8bf549d2472b"
   ],
   "terms_urls": [
    "https://velvetcaviar.com/pages/terms-of-use"
@@ -16498,7 +16860,7 @@
   "robots_sha": "0b29a4525402757ddc5374562c6cce5aa1e709315f8eba93d05c0ff59f53fdfb",
   "stance": "none",
   "terms_sha": [
-   "80b69b45c75662981188cd3282d061b53c05b5ff798f91ddd365c9a33098e76e"
+   "baf28386f116f13950216331e07dd80d7a6b97cb72e316c7dc74e39dc4f4ca9c"
   ],
   "terms_urls": [
    "https://www.venus.com/policies/terms-of-service"
@@ -16628,7 +16990,7 @@
   "robots_sha": "981c27e21040075dcb4d1d0fbdf6e441be0aee9e03e4c30058b1dfdb1103cbba",
   "stance": "none",
   "terms_sha": [
-   "301e9c1dbf876a2962dab12ddf150ef36d9c21344090eff7716d165955dc732d"
+   "442367ed31ed70863983ea5278b2c74a04b8d755c9880898a031d5bc77f26ea8"
   ],
   "terms_urls": [
    "https://www.vicicollection.com/pages/vici-collection-llc-terms-of-use"
@@ -16671,7 +17033,7 @@
   "robots_sha": "61f6a8c201835d54ea261dd3893a1a87a603c33e2031586b90498017d5b1c264",
   "stance": "none",
   "terms_sha": [
-   "b0e0650a041d60c294a58b2672f6e6baa3ea2e03d8456554de98f6cc49880f15"
+   "076c8ec2080ac1f57cb25def1a95961d625fce167625226bcb5ef5a3078ccbbf"
   ],
   "terms_urls": [
    "https://www.vistaprint.com/terms-of-use"
@@ -16774,7 +17136,7 @@
   "robots_sha": "a70fd40e5609213bafcfdf713942b42fb03de78b27ca934d1ce4a8782fa20f67",
   "stance": "none",
   "terms_sha": [
-   "ff7b14748c64b01f8b5590b8d8a904a7cee08f55a3b923e8f3d5340cd2e5481d"
+   "361c5393e301a98ec91d4b5c1b0f43c4657dd50e1a49211107a29fdf0a4b76de"
   ],
   "terms_urls": [
    "https://vuoriclothing.com/pages/terms-of-use"
@@ -16804,7 +17166,7 @@
   "robots_sha": "f3b301ce426bc203f1fd60f2594383f743c766ee09b329e93614cff693dee835",
   "stance": "none",
   "terms_sha": [
-   "3d4a89aa664b71c9e1b7476e58374a443ed5a7ac55906ac1b740cb7bcbee9743"
+   "c02b9732ccc87636537c3d4d3cadf49ae40c196d7faa360f906f357a20008342"
   ],
   "terms_urls": [
    "https://www.walgreens.com/"
@@ -16903,7 +17265,7 @@
   "robots_sha": "c0741eee016f13e662710513b8081df6cd049f9c8ff7d3795908aee708602caa",
   "stance": "none",
   "terms_sha": [
-   "ba416a64978e685fcee4715c5490b3b11b2732808612a203892446db3b3021dc"
+   "358e8f7abebfcf0acd46b45c9bae7578dd07aa040a52570742b26bb086dcf579"
   ],
   "terms_urls": [
    "https://www.wayofwade.com/pages/terms-of-service"
@@ -17066,8 +17428,8 @@
   "robots_sha": "ad60431cd41e7a119a92de22cdd40f97ab3573f42f3bb96687722321157cb78e",
   "stance": "none",
   "terms_sha": [
-   "04518ac24c7f2aeb2e44b0ae8275e39a7579b5ce4bb5003604f614927f04d193",
-   "ce7e4717a28427d6fd6f2e67597194ded27b863c632d1ac8804a379268278d75"
+   "6987da5975cd382d720355bcdaf6e4e0409bbbafcba340d43d21549f64478a2e",
+   "94e90e8797b5dc7b4f189066c571263dd49fe9b6a1e12e2751f611e160861ec7"
   ],
   "terms_urls": [
    "https://whitefoxboutique.com/pages/terms-of-purchase",
@@ -17105,13 +17467,32 @@
   ]
  },
  "williams-sonoma.com": {
-  "evidence": {},
-  "features": null,
+  "evidence": {
+   "agent_legacy": [
+    "You and Williams-Sonoma, Inc. agree that, except as set forth below, we will resolve any controversies, claims, counterclaims, or other disputes between you and Williams-Sonoma, Inc. or you and a third-party agent of Williams-Sonoma, Inc."
+   ]
+  },
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": true,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": true,
+   "auto_purchase_ban": false,
+   "automation_ban": true
+  },
   "robots": null,
   "robots_sha": null,
-  "stance": null,
+  "stance": "none",
   "terms_sha": [],
-  "terms_urls": []
+  "terms_urls": [
+   "https://www.williams-sonoma.com/customer-service/legal-statement.html"
+  ]
  },
  "womanwithin.com": {
   "evidence": {},
@@ -17257,7 +17638,7 @@
   "robots_sha": "7683edc6d487ff5aa7cd71ec923f6ec101480b840eee0b0891f4d1fd437a19da",
   "stance": "none",
   "terms_sha": [
-   "f353ffb11a92e3a081845f866d3f7c2fda83f70244fa1ca22a688fc93a18c5fd"
+   "6f3f8e999e8ee9f2c280718ea5563571df0dd48a1c5677d5f4af3c587ffa8c9b"
   ],
   "terms_urls": [
    "https://www.worldmarket.com/customer-service/terms-and-conditions.html"
@@ -17377,10 +17758,10 @@
   "robots_sha": "de966421867d2b8baf3e3d2430e56743f6426e3e404fff62e7641853206bf65a",
   "stance": "none",
   "terms_sha": [
-   "44841c9e9efd8de448b4941193df24e85275f52e827178dac316df42af48ea18"
+   "4e5d37a60155d57889bfa50f0e40ac3355d80c764aa9fd223dd0d8d3812f5ced"
   ],
   "terms_urls": [
-   "https://www.xtool.com/pages/terms-of-use"
+   "https://www.xtool.com/policies/terms-of-service"
   ]
  },
  "yandy.com": {
@@ -17445,16 +17826,31 @@
  },
  "yeti.com": {
   "evidence": {},
-  "features": null,
+  "features": {
+   "agent_allowlist": false,
+   "agent_ban": false,
+   "agent_human": false,
+   "agent_identify": false,
+   "agent_legacy": false,
+   "agent_liability": false,
+   "agent_rule": false,
+   "agent_signed": false,
+   "agent_thirdparty": false,
+   "ai_training_ban": false,
+   "auto_purchase_ban": false,
+   "automation_ban": false
+  },
   "robots": {
    "ChatGPT-User": true,
    "Claude-User": true,
    "Perplexity-User": true
   },
   "robots_sha": "0abd5f304c878ed5ec0f14411aa33854f99fa3374acd5a11fada0c6571776f1f",
-  "stance": null,
+  "stance": "none",
   "terms_sha": [],
-  "terms_urls": []
+  "terms_urls": [
+   "https://www.yeti.com/terms-conditions.html"
+  ]
  },
  "youngla.com": {
   "evidence": {},
@@ -17480,7 +17876,7 @@
   "robots_sha": "cf61ae4268a1a1bb0fdd70733a333648c8995ef872fd7b20e4ae4e88d8094b53",
   "stance": "none",
   "terms_sha": [
-   "667222d937b9f35e4049bc87986ac78467c5d78d8b8f8a7aa8b8eed3982c99ec"
+   "5104d7c710a11e4bdc36a36522b41a90525a2a1dc99622f31db91ed06435ec96"
   ],
   "terms_urls": [
    "https://www.youngla.com/pages/terms-of-service"
@@ -17537,7 +17933,7 @@
    "Claude-User": true,
    "Perplexity-User": true
   },
-  "robots_sha": "d293bc83f8d10a673fd86b3efabf83b102cf1582a40b3dc713aefc237171bc5f",
+  "robots_sha": "d7d8732f6bd170204add85938bed3db899da12452fcbbdc3d2e8b79395b87ea0",
   "stance": "none",
   "terms_sha": [
    "ccff5588f23842aea7c0dc604b90c6f1bb6f47848882fa5da8d654745aa76942"
@@ -17570,7 +17966,7 @@
   "robots_sha": "07e08a1e8691b1004f0971f81761a2cae42b742000b79f44affceea5530ac16b",
   "stance": "none",
   "terms_sha": [
-   "15244db8b0d16fe1b10d34e9f3310a7884289db73ec10e89d1fd79f03a9f8fe0"
+   "f155120cad160977edec1514b41ea0943bae70a82d33880dcd7db25145ea9c43"
   ],
   "terms_urls": [
    "https://www.zappos.com/terms-of-use"
@@ -17613,7 +18009,7 @@
   "robots_sha": "3af820dbf9825eb559b56095de73efa1361d7342d1551a6ae951300ec0c1be6d",
   "stance": "none",
   "terms_sha": [
-   "c1d32396401fbe0be0f5189314bbe1a0f168448982a1ee052def6537f8232377"
+   "27c25038a93e6f15346faff76b9f3adae25272b817d9ad584dd88374e180b756"
   ],
   "terms_urls": [
    "https://www.zennioptical.com/terms-of-use"
