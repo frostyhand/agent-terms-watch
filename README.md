@@ -38,4 +38,4 @@ Terms say what a shop claims the right to do, not what it enforces. Some pages a
 
 ## Author
 
-Tejaswi Suresh, RankSaga Ltd. Code under Apache-2.0; coded data under CC BY 4.0.
+Tejaswi Suresh, Code under Apache-2.0; coded data under CC BY 4.0.
